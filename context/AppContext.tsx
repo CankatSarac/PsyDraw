@@ -1,118 +1,124 @@
 "use client"
 
-import type React from "react"
-import { createContext, useContext, useState, type ReactNode, useEffect } from "react"
-import AsyncStorage from "@react-native-async-storage/async-storage"
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import AIService from '@/lib/aiService';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface Analysis {
-  id: string
-  imageUri: string
-  headline: string
-  mood: string
-  insights: string[]
-  createdAt: string
+  id: string;
+  imageUri: string;
+  createdAt: string;
+  headline: string;
+  mood: 'happy' | 'sad' | 'angry' | 'neutral';
+  insights: string[];
+  developmentalStage: string;
+  emotionalState: string;
+  recommendations: string[];
+  confidenceScore: number;
 }
 
 interface AppContextType {
-  remainingCredits: number
-  analyses: Analysis[]
-  decrementCredits: () => Promise<boolean>
-  addCredits: (amount: number) => Promise<void>
-  addAnalysis: (analysis: Analysis) => void
-  deleteAnalysis: (id: string) => void
+  analyses: Analysis[];
+  remainingCredits: number;
+  addAnalysis: (analysis: Analysis) => void;
+  deleteAnalysis: (id: string) => void;
+  decrementCredits: () => Promise<boolean>;
+  isLoading: boolean;
+  error: string | null;
+  apiKey: string;
+  setApiKey: (key: string) => Promise<void>;
 }
 
-const AppContext = createContext<AppContextType | undefined>(undefined)
+const AppContext = createContext<AppContextType | undefined>(undefined);
 
-export const AppProvider: React.FC<{ children: ReactNode; initialCredits: number }> = ({
-  children,
-  initialCredits,
-}) => {
-  const [remainingCredits, setRemainingCredits] = useState<number>(initialCredits)
-  const [analyses, setAnalyses] = useState<Analysis[]>([])
+export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [analyses, setAnalyses] = useState<Analysis[]>([]);
+  const [remainingCredits, setRemainingCredits] = useState<number>(5);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+  const [apiKey, setApiKeyState] = useState<string>("");
 
   useEffect(() => {
-    // Load saved analyses from storage
-    const loadAnalyses = async () => {
-      try {
-        const savedAnalyses = await AsyncStorage.getItem("analyses")
-        if (savedAnalyses) {
-          setAnalyses(JSON.parse(savedAnalyses))
-        }
-      } catch (error) {
-        console.error("Error loading analyses:", error)
-      }
-    }
+    loadSavedData();
+  }, []);
 
-    loadAnalyses()
-  }, [])
-
-  const saveAnalyses = async (updatedAnalyses: Analysis[]) => {
+  const loadSavedData = async () => {
     try {
-      await AsyncStorage.setItem("analyses", JSON.stringify(updatedAnalyses))
+      const savedAnalyses = await AsyncStorage.getItem('analyses');
+      const savedCredits = await AsyncStorage.getItem('remainingCredits');
+      const savedApiKey = await AsyncStorage.getItem('chatgptVisionKey');
+
+      if (savedAnalyses) {
+        setAnalyses(JSON.parse(savedAnalyses));
+      }
+      if (savedCredits) {
+        setRemainingCredits(JSON.parse(savedCredits));
+      }
+      if (savedApiKey) {
+        setApiKeyState(savedApiKey);
+      }
     } catch (error) {
-      console.error("Error saving analyses:", error)
+      console.error('Error loading saved data:', error);
     }
-  }
+  };
+
+  const saveData = async () => {
+    try {
+      await AsyncStorage.setItem('analyses', JSON.stringify(analyses));
+      await AsyncStorage.setItem('remainingCredits', JSON.stringify(remainingCredits));
+    } catch (error) {
+      console.error('Error saving data:', error);
+    }
+  };
+
+  const addAnalysis = (analysis: Analysis) => {
+    setAnalyses(prev => [analysis, ...prev]);
+    saveData();
+  };
+
+  const deleteAnalysis = (id: string) => {
+    setAnalyses(prev => prev.filter(analysis => analysis.id !== id));
+    saveData();
+  };
 
   const decrementCredits = async (): Promise<boolean> => {
     if (remainingCredits <= 0) {
-      return false
+      return false;
     }
+    setRemainingCredits(prev => prev - 1);
+    await saveData();
+    return true;
+  };
 
-    const newCredits = remainingCredits - 1
-    setRemainingCredits(newCredits)
+  const setApiKey = async (key: string) => {
     try {
-      await AsyncStorage.setItem("remainingCredits", newCredits.toString())
-      return true
+      await AsyncStorage.setItem('chatgptVisionKey', key);
+      setApiKeyState(key);
     } catch (error) {
-      console.error("Error saving credits:", error)
-      return false
+      console.error('Error saving API key:', error);
+      throw error;
     }
-  }
+  };
 
-  const addCredits = async (amount: number): Promise<void> => {
-    const newCredits = remainingCredits + amount
-    setRemainingCredits(newCredits)
-    try {
-      await AsyncStorage.setItem("remainingCredits", newCredits.toString())
-    } catch (error) {
-      console.error("Error saving credits:", error)
-    }
-  }
+  const value = {
+    analyses,
+    remainingCredits,
+    addAnalysis,
+    deleteAnalysis,
+    decrementCredits,
+    isLoading,
+    error,
+    apiKey,
+    setApiKey,
+  };
 
-  const addAnalysis = (analysis: Analysis) => {
-    const updatedAnalyses = [analysis, ...analyses]
-    setAnalyses(updatedAnalyses)
-    saveAnalyses(updatedAnalyses)
-  }
+  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
+};
 
-  const deleteAnalysis = (id: string) => {
-    const updatedAnalyses = analyses.filter((analysis) => analysis.id !== id)
-    setAnalyses(updatedAnalyses)
-    saveAnalyses(updatedAnalyses)
-  }
-
-  return (
-    <AppContext.Provider
-      value={{
-        remainingCredits,
-        analyses,
-        decrementCredits,
-        addCredits,
-        addAnalysis,
-        deleteAnalysis,
-      }}
-    >
-      {children}
-    </AppContext.Provider>
-  )
-}
-
-export const useApp = (): AppContextType => {
-  const context = useContext(AppContext)
+export const useApp = () => {
+  const context = useContext(AppContext);
   if (context === undefined) {
-    throw new Error("useApp must be used within an AppProvider")
+    throw new Error('useApp must be used within an AppProvider');
   }
-  return context
-}
+  return context;
+};

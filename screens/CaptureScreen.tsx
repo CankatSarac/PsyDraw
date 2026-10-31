@@ -10,6 +10,47 @@ import { Lucide } from "@/components/ui/lucide"
 import { useApp } from "@/context/AppContext"
 import PaywallModal from "@/components/PaywallModal"
 
+// Web-specific camera implementation
+const WebCamera = ({ onCameraReady, style, children }: any) => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [stream, setStream] = useState<MediaStream | null>(null);
+
+  useEffect(() => {
+    const startCamera = async () => {
+      try {
+        const mediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
+        if (videoRef.current) {
+          videoRef.current.srcObject = mediaStream;
+          setStream(mediaStream);
+          onCameraReady();
+        }
+      } catch (error) {
+        console.error("Error accessing camera:", error);
+      }
+    };
+
+    startCamera();
+
+    return () => {
+      if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+      }
+    };
+  }, []);
+
+  return (
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <video
+        ref={videoRef}
+        autoPlay
+        playsInline
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      />
+      {children}
+    </div>
+  );
+};
+
 const CaptureScreen: React.FC = () => {
   const [hasPermission, setHasPermission] = useState<boolean | null>(null)
   const [isCameraReady, setIsCameraReady] = useState(false)
@@ -21,10 +62,9 @@ const CaptureScreen: React.FC = () => {
   const { remainingCredits, decrementCredits } = useApp()
 
   useEffect(() => {
-    ;(async () => {
-      const { status } = await Camera.requestCameraPermissionsAsync()
-      setHasPermission(status === "granted")
-    })()
+    if (typeof window !== 'undefined') {
+      setHasPermission(true); // Web browsers handle permissions differently
+    }
   }, [])
 
   const handleCapturePress = async () => {
@@ -40,17 +80,44 @@ const CaptureScreen: React.FC = () => {
     setIsCapturing(true)
 
     try {
-      if (cameraRef.current) {
-        const photo = await cameraRef.current.takePictureAsync()
+      if (typeof window !== 'undefined') {
+        // Web camera capture
+        const video = document.querySelector('video');
+        if (video) {
+          const canvas = document.createElement('canvas');
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          const ctx = canvas.getContext('2d');
+          if (ctx) {
+            ctx.drawImage(video, 0, 0);
+            const imageUri = canvas.toDataURL('image/jpeg');
+            
+            // Process the image
+            const processedImage = await ImageManipulator.manipulateAsync(
+              imageUri,
+              [{ resize: { width: 1200 } }],
+              {
+                compress: 0.8,
+                format: ImageManipulator.SaveFormat.JPEG,
+              }
+            );
 
-        // Process the image (crop, perspective correction)
-        const processedImage = await ImageManipulator.manipulateAsync(photo.uri, [{ resize: { width: 1200 } }], {
-          compress: 0.8,
-          format: ImageManipulator.SaveFormat.JPEG,
-        })
-
-        // Navigate to analysis screen with the processed image
-        navigation.navigate("Analysis", { imageUri: processedImage.uri })
+            // Navigate to analysis screen
+            navigation.navigate("Analysis", { imageUri: processedImage.uri });
+          }
+        }
+      } else if (cameraRef.current) {
+        // Native camera capture
+        const photo = await cameraRef.current.takePictureAsync();
+        const processedImage = await ImageManipulator.manipulateAsync(
+          photo.uri,
+          [{ resize: { width: 1200 } }],
+          {
+            compress: 0.8,
+            format: ImageManipulator.SaveFormat.JPEG,
+          }
+        );
+        navigation.navigate("Analysis", { imageUri: processedImage.uri });
       }
     } catch (error) {
       console.error("Error capturing image:", error)
@@ -78,7 +145,7 @@ const CaptureScreen: React.FC = () => {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>No access to camera</Text>
-        <TouchableOpacity style={styles.permissionButton} onPress={() => Camera.requestCameraPermissionsAsync()}>
+        <TouchableOpacity style={styles.permissionButton} onPress={() => setHasPermission(true)}>
           <Text style={styles.permissionButtonText}>Grant Permission</Text>
         </TouchableOpacity>
       </View>
@@ -87,55 +154,60 @@ const CaptureScreen: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Camera
-        ref={cameraRef}
-        style={styles.camera}
-        type={CameraType.back}
-        flashMode={flashMode}
-        onCameraReady={() => setIsCameraReady(true)}
-      >
-        <View style={styles.overlay}>
-          {/* Edge detector overlay */}
-          <View style={styles.edgeDetector}>
-            <View style={[styles.corner, styles.topLeft]} />
-            <View style={[styles.corner, styles.topRight]} />
-            <View style={[styles.corner, styles.bottomLeft]} />
-            <View style={[styles.corner, styles.bottomRight]} />
+      {typeof window !== 'undefined' ? (
+        <WebCamera
+          onCameraReady={() => setIsCameraReady(true)}
+          style={styles.camera}
+        >
+          <View style={styles.overlay}>
+            <View style={styles.edgeDetector}>
+              <View style={[styles.corner, styles.topLeft]} />
+              <View style={[styles.corner, styles.topRight]} />
+              <View style={[styles.corner, styles.bottomLeft]} />
+              <View style={[styles.corner, styles.bottomRight]} />
+            </View>
           </View>
-
-          {/* Credits indicator */}
-          <View style={styles.creditsContainer}>
-            <Text style={styles.creditsText}>
-              {remainingCredits} {remainingCredits === 1 ? "scan" : "scans"} remaining
-            </Text>
+        </WebCamera>
+      ) : (
+        <Camera
+          ref={cameraRef}
+          style={styles.camera}
+          type={CameraType.back}
+          flashMode={flashMode}
+          onCameraReady={() => setIsCameraReady(true)}
+        >
+          <View style={styles.overlay}>
+            <View style={styles.edgeDetector}>
+              <View style={[styles.corner, styles.topLeft]} />
+              <View style={[styles.corner, styles.topRight]} />
+              <View style={[styles.corner, styles.bottomLeft]} />
+              <View style={[styles.corner, styles.bottomRight]} />
+            </View>
           </View>
+        </Camera>
+      )}
 
-          {/* Camera controls */}
-          <View style={styles.controlsContainer}>
-            <TouchableOpacity style={styles.controlButton} onPress={toggleFlash}>
-              <Lucide
-                name="sun"
-                size={24}
-                color={flashMode === Camera.Constants.FlashMode.on ? "#FFB88E" : "#FFFFFF"}
-              />
-            </TouchableOpacity>
+      <View style={styles.controls}>
+        <TouchableOpacity style={styles.flashButton} onPress={toggleFlash}>
+          <Lucide name={flashMode === Camera.Constants.FlashMode.on ? "zap" : "zap-off"} size={24} color="#FFFFFF" />
+        </TouchableOpacity>
 
-            <TouchableOpacity
-              style={[styles.captureButton, isCapturing && styles.capturingButton]}
-              onPress={handleCapturePress}
-              disabled={!isCameraReady || isCapturing}
-            >
-              {isCapturing ? (
-                <ActivityIndicator size="small" color="#FFFFFF" />
-              ) : (
-                <View style={styles.captureButtonInner} />
-              )}
-            </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.captureButton, isCapturing && styles.captureButtonDisabled]}
+          onPress={handleCapturePress}
+          disabled={isCapturing}
+        >
+          {isCapturing ? (
+            <ActivityIndicator size="small" color="#FFFFFF" />
+          ) : (
+            <View style={styles.captureButtonInner} />
+          )}
+        </TouchableOpacity>
 
-            <View style={styles.controlButton}>{/* Placeholder for symmetry */}</View>
-          </View>
+        <View style={styles.creditsContainer}>
+          <Text style={styles.creditsText}>{remainingCredits} credits remaining</Text>
         </View>
-      </Camera>
+      </View>
 
       <PaywallModal visible={showPaywall} onClose={() => setShowPaywall(false)} />
     </View>
@@ -213,13 +285,13 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     fontWeight: "bold",
   },
-  controlsContainer: {
+  controls: {
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
     paddingBottom: 40,
   },
-  controlButton: {
+  flashButton: {
     width: 50,
     height: 50,
     borderRadius: 25,
@@ -234,7 +306,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  capturingButton: {
+  captureButtonDisabled: {
     backgroundColor: "rgba(255, 184, 142, 0.7)",
   },
   captureButtonInner: {

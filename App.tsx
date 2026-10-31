@@ -3,12 +3,13 @@
 import { useEffect, useState } from "react"
 import { SafeAreaProvider } from "react-native-safe-area-context"
 import { NavigationContainer } from "@react-navigation/native"
-import { StatusBar } from "react-native"
+import { StatusBar, StyleSheet, View } from "react-native"
 import AsyncStorage from "@react-native-async-storage/async-storage"
 import { ThemeProvider } from "@/components/theme-provider"
 import OnboardingScreen from "@/screens/OnboardingScreen"
 import { AppProvider } from "@/context/AppContext"
 import AppNavigator from "@/navigation/AppNavigator"
+import { GestureHandlerRootView } from "react-native-gesture-handler"
 
 export default function App() {
   const [isFirstLaunch, setIsFirstLaunch] = useState<boolean | null>(null)
@@ -49,15 +50,38 @@ export default function App() {
   }
 
   return (
-    <SafeAreaProvider>
-      <ThemeProvider>
-        <StatusBar barStyle="dark-content" backgroundColor="#FCEBD1" />
-        <AppProvider initialCredits={remainingCredits}>
-          <NavigationContainer>
-            <AppNavigator />
-          </NavigationContainer>
-        </AppProvider>
-      </ThemeProvider>
-    </SafeAreaProvider>
+    <View style={styles.root}>
+      <GestureHandlerRootView style={styles.container}>
+        <SafeAreaProvider>
+          <ThemeProvider>
+            <StatusBar barStyle="dark-content" backgroundColor="#FCEBD1" />
+            <AppProvider initialCredits={remainingCredits}>
+              <NavigationContainer>
+                <View style={styles.navigationView}>
+                  <AppNavigator />
+                </View>
+              </NavigationContainer>
+            </AppProvider>
+          </ThemeProvider>
+        </SafeAreaProvider>
+      </GestureHandlerRootView>
+    </View>
   )
 }
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    height: '100vh',
+    width: '100vw',
+  },
+  container: {
+    flex: 1,
+    overflow: 'hidden',
+  },
+  navigationView: {
+    flex: 1,
+    position: 'relative',
+    height: '100%',
+  },
+})

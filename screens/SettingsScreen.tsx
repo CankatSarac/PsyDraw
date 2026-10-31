@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import { useState } from "react"
-import { View, Text, StyleSheet, Switch, TouchableOpacity, ScrollView, Alert, Linking } from "react-native"
+import { useState, useEffect } from "react"
+import { View, Text, StyleSheet, Switch, TouchableOpacity, ScrollView, Alert, Linking, TextInput } from "react-native"
 import { useTheme } from "@/components/theme-provider"
 import { Lucide } from "@/components/ui/lucide"
 import AsyncStorage from "@react-native-async-storage/async-storage"
@@ -11,10 +11,20 @@ import PaywallModal from "@/components/PaywallModal"
 
 const SettingsScreen: React.FC = () => {
   const { theme, toggleTheme, colors } = useTheme()
-  const { remainingCredits } = useApp()
+  const { remainingCredits, apiKey, setApiKey } = useApp()
   const [notificationsEnabled, setNotificationsEnabled] = useState(false)
   const [dataSharing, setDataSharing] = useState(false)
   const [showPaywall, setShowPaywall] = useState(false)
+
+  const handleSaveApiKey = async (key: string) => {
+    try {
+      await setApiKey(key)
+      Alert.alert("Success", "API key saved successfully")
+    } catch (error) {
+      console.error("Error saving API key:", error)
+      Alert.alert("Error", "Failed to save API key")
+    }
+  }
 
   const handleResetApp = async () => {
     Alert.alert(
@@ -153,6 +163,24 @@ const SettingsScreen: React.FC = () => {
       </View>
 
       <View style={styles.section}>
+        <Text style={[styles.sectionTitle, { color: colors.text }]}>API Configuration</Text>
+
+        <View style={[styles.settingItem, { backgroundColor: colors.card }]}>
+          <View style={styles.settingContent}>
+            <Text style={[styles.settingTitle, { color: colors.text }]}>ChatGPT Vision API Key</Text>
+            <TextInput
+              style={[styles.apiKeyInput, { color: colors.text, borderColor: colors.text + "40" }]}
+              value={apiKey}
+              onChangeText={handleSaveApiKey}
+              placeholder="Enter your API key"
+              placeholderTextColor={colors.text + "80"}
+              secureTextEntry
+            />
+          </View>
+        </View>
+      </View>
+
+      <View style={styles.section}>
         <TouchableOpacity style={[styles.dangerButton, { backgroundColor: "#FF6B6B" }]} onPress={handleResetApp}>
           <Text style={styles.dangerButtonText}>Reset App</Text>
         </TouchableOpacity>
@@ -243,6 +271,13 @@ const styles = StyleSheet.create({
   versionText: {
     fontSize: 14,
     opacity: 0.5,
+  },
+  apiKeyInput: {
+    marginTop: 8,
+    padding: 8,
+    borderWidth: 1,
+    borderRadius: 4,
+    fontSize: 14,
   },
 })
 

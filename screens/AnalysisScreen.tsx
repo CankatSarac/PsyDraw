@@ -1,295 +1,309 @@
 "use client"
 
-import type React from "react"
-import { useState, useEffect } from "react"
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  ScrollView,
-  TouchableOpacity,
-  ActivityIndicator,
-  Share,
-  Alert,
-} from "react-native"
-import { useRoute, useNavigation, type RouteProp } from "@react-navigation/native"
-import { Lucide } from "@/components/ui/lucide"
-import { useApp } from "@/context/AppContext"
-import * as MediaLibrary from "expo-media-library"
-import { v4 as uuidv4 } from "uuid"
-
-type AnalysisRouteParams = {
-  imageUri: string
-}
+import React, { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity, ActivityIndicator } from 'react-native';
+import { useNavigation, useRoute } from '@react-navigation/native';
+import { Lucide } from '@/components/ui/lucide';
+import { useApp } from '@/context/AppContext';
+import AIService from '@/lib/aiService';
 
 const AnalysisScreen: React.FC = () => {
-  const route = useRoute<RouteProp<Record<string, AnalysisRouteParams>, string>>()
-  const navigation = useNavigation()
-  const { imageUri } = route.params
-  const { addAnalysis } = useApp()
-
-  const [isLoading, setIsLoading] = useState(true)
-  const [analysis, setAnalysis] = useState<{
-    headline: string
-    mood: string
-    insights: string[]
-  } | null>(null)
-  const [savePermission, setSavePermission] = useState<boolean | null>(null)
+  const navigation = useNavigation();
+  const route = useRoute();
+  const { addAnalysis } = useApp();
+  const [analysis, setAnalysis] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Request permission to save images
-    ;(async () => {
-      const { status } = await MediaLibrary.requestPermissionsAsync()
-      setSavePermission(status === "granted")
-    })()
-
-    // Simulate AI analysis
     const analyzeImage = async () => {
       try {
-        // In a real app, this would be an API call to OpenAI Vision
-        // For demo purposes, we'll simulate a response after a delay
-        await new Promise((resolve) => setTimeout(resolve, 3000))
-
-        // Mock analysis result
-        const mockAnalysis = {
-          headline: "Expressive and Creative",
-          mood: "happy",
-          insights: [
-            "Shows strong imagination and creativity through vibrant colors",
-            "Balanced composition indicates emotional stability",
-            "Details suggest attention and focus capabilities",
-          ],
-        }
-
-        setAnalysis(mockAnalysis)
-
-        // Save the analysis to the app context
-        const newAnalysis = {
-          id: uuidv4(),
-          imageUri,
-          headline: mockAnalysis.headline,
-          mood: mockAnalysis.mood,
-          insights: mockAnalysis.insights,
-          createdAt: new Date().toISOString(),
-        }
-
-        addAnalysis(newAnalysis)
+        const { imageUri } = route.params as { imageUri: string };
+        const aiService = AIService.getInstance();
+        const result = await aiService.analyzeDrawing(imageUri);
+        setAnalysis(result);
+        addAnalysis(result);
       } catch (error) {
-        console.error("Error analyzing image:", error)
-        Alert.alert("Error", "Failed to analyze the drawing. Please try again.")
-        navigation.goBack()
+        console.error('Error analyzing image:', error);
       } finally {
-        setIsLoading(false)
+        setIsLoading(false);
       }
-    }
+    };
 
-    analyzeImage()
-  }, [imageUri, addAnalysis, navigation])
-
-  const getMoodEmoji = (mood: string) => {
-    const moods: Record<string, string> = {
-      happy: "😊",
-      sad: "😢",
-      angry: "😠",
-      calm: "😌",
-      excited: "😃",
-      confused: "😕",
-      neutral: "😐",
-    }
-
-    return moods[mood] || "😊"
-  }
-
-  const handleShare = async () => {
-    try {
-      await Share.share({
-        url: imageUri,
-        message: `Drawing Analysis: ${analysis?.headline}\n\nInsights:\n${analysis?.insights.join("\n")}`,
-      })
-    } catch (error) {
-      console.error("Error sharing analysis:", error)
-      Alert.alert("Error", "Failed to share the analysis.")
-    }
-  }
-
-  const handleSave = async () => {
-    if (!savePermission) {
-      Alert.alert("Permission Required", "Please grant permission to save images to your gallery.")
-      return
-    }
-
-    try {
-      const asset = await MediaLibrary.createAssetAsync(imageUri)
-      await MediaLibrary.createAlbumAsync("DrawInsight", asset, false)
-      Alert.alert("Success", "Analysis saved to gallery.")
-    } catch (error) {
-      console.error("Error saving analysis:", error)
-      Alert.alert("Error", "Failed to save the analysis to gallery.")
-    }
-  }
+    analyzeImage();
+  }, []);
 
   if (isLoading) {
     return (
       <View style={styles.loadingContainer}>
         <ActivityIndicator size="large" color="#FFB88E" />
         <Text style={styles.loadingText}>Analyzing drawing...</Text>
-        <Text style={styles.loadingSubtext}>This may take a moment</Text>
       </View>
-    )
+    );
+  }
+
+  if (!analysis) {
+    return (
+      <View style={styles.errorContainer}>
+        <Text style={styles.errorText}>Failed to analyze the drawing</Text>
+        <TouchableOpacity style={styles.retryButton} onPress={() => navigation.goBack()}>
+          <Text style={styles.retryButtonText}>Try Again</Text>
+        </TouchableOpacity>
+      </View>
+    );
   }
 
   return (
     <ScrollView style={styles.container}>
-      <Image source={{ uri: imageUri }} style={styles.image} />
+      <View style={styles.header}>
+        <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+          <Lucide name="arrow-left" size={24} color="#4A4A4A" />
+        </TouchableOpacity>
+        <Text style={styles.title}>Analysis Results</Text>
+      </View>
 
-      <View style={styles.contentContainer}>
-        <View style={styles.headlineContainer}>
-          <Text style={styles.headline}>{analysis?.headline}</Text>
-          <Text style={styles.moodEmoji}>{getMoodEmoji(analysis?.mood || "neutral")}</Text>
-        </View>
+      <View style={styles.imageContainer}>
+        <Image source={{ uri: analysis.imageUri }} style={styles.image} />
+      </View>
 
-        <Text style={styles.insightsTitle}>Key Insights</Text>
-
-        {analysis?.insights.map((insight, index) => (
-          <View key={index} style={styles.insightItem}>
-            <View style={styles.bulletPoint} />
-            <Text style={styles.insightText}>{insight}</Text>
+      <View style={styles.content}>
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Overview</Text>
+          <Text style={styles.headline}>{analysis.headline}</Text>
+          <View style={styles.moodContainer}>
+            <Text style={styles.moodLabel}>Mood:</Text>
+            <Text style={styles.moodValue}>{analysis.mood}</Text>
+            <Text style={styles.moodEmoji}>
+              {analysis.mood === 'happy' ? '😊' : 
+               analysis.mood === 'sad' ? '😢' : 
+               analysis.mood === 'angry' ? '😠' : '😐'}
+            </Text>
           </View>
-        ))}
-
-        <View style={styles.actionsContainer}>
-          <TouchableOpacity style={styles.actionButton} onPress={handleSave}>
-            <Lucide name="save" size={20} color="#4A4A4A" />
-            <Text style={styles.actionText}>Save</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity style={styles.actionButton} onPress={handleShare}>
-            <Lucide name="share" size={20} color="#4A4A4A" />
-            <Text style={styles.actionText}>Share</Text>
-          </TouchableOpacity>
         </View>
 
-        <View style={styles.disclaimerContainer}>
-          <Lucide name="alert-triangle" size={16} color="#4A4A4A" />
-          <Text style={styles.disclaimerText}>
-            This analysis is not a diagnostic tool. For professional advice, please consult a child psychologist.
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Developmental Stage</Text>
+          <Text style={styles.stageText}>{analysis.developmentalStage}</Text>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Emotional State</Text>
+          <Text style={styles.emotionalState}>{analysis.emotionalState}</Text>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Key Insights</Text>
+          {analysis.insights.map((insight: string, index: number) => (
+            <View key={index} style={styles.insightItem}>
+              <Lucide name="check-circle" size={16} color="#FFB88E" />
+              <Text style={styles.insightText}>{insight}</Text>
+            </View>
+          ))}
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Recommendations</Text>
+          {analysis.recommendations.map((recommendation: string, index: number) => (
+            <View key={index} style={styles.recommendationItem}>
+              <Lucide name="lightbulb" size={16} color="#FFB88E" />
+              <Text style={styles.recommendationText}>{recommendation}</Text>
+            </View>
+          ))}
+        </View>
+
+        <View style={styles.confidenceContainer}>
+          <Text style={styles.confidenceLabel}>Analysis Confidence:</Text>
+          <View style={styles.confidenceBar}>
+            <View 
+              style={[
+                styles.confidenceFill, 
+                { width: `${analysis.confidenceScore * 100}%` }
+              ]} 
+            />
+          </View>
+          <Text style={styles.confidenceValue}>
+            {Math.round(analysis.confidenceScore * 100)}%
           </Text>
         </View>
       </View>
     </ScrollView>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FCEBD1",
+    backgroundColor: '#FCEBD1',
   },
   loadingContainer: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#FCEBD1",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FCEBD1',
   },
   loadingText: {
-    fontSize: 18,
-    color: "#4A4A4A",
     marginTop: 20,
-    fontWeight: "bold",
+    fontSize: 16,
+    color: '#4A4A4A',
   },
-  loadingSubtext: {
-    fontSize: 14,
-    color: "#4A4A4A",
-    marginTop: 10,
-  },
-  image: {
-    width: "100%",
-    height: 300,
-    resizeMode: "contain",
-    backgroundColor: "#FFFFFF",
-  },
-  contentContainer: {
+  errorContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FCEBD1',
     padding: 20,
   },
-  headlineContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    marginBottom: 20,
-  },
-  headline: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: "#4A4A4A",
-    flex: 1,
-  },
-  moodEmoji: {
-    fontSize: 32,
-    marginLeft: 10,
-  },
-  insightsTitle: {
+  errorText: {
     fontSize: 18,
-    fontWeight: "bold",
-    color: "#4A4A4A",
-    marginBottom: 15,
-  },
-  insightItem: {
-    flexDirection: "row",
-    alignItems: "flex-start",
-    marginBottom: 15,
-  },
-  bulletPoint: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: "#FFB88E",
-    marginTop: 6,
-    marginRight: 10,
-  },
-  insightText: {
-    fontSize: 16,
-    color: "#4A4A4A",
-    flex: 1,
-  },
-  actionsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    marginTop: 30,
+    color: '#FF6B6B',
     marginBottom: 20,
+    textAlign: 'center',
   },
-  actionButton: {
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: "#FFFFFF",
+  retryButton: {
+    backgroundColor: '#FFB88E',
     paddingVertical: 12,
-    paddingHorizontal: 20,
+    paddingHorizontal: 24,
     borderRadius: 25,
-    elevation: 2,
-    shadowColor: "#000",
+  },
+  retryButtonText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E5E5E5',
+  },
+  backButton: {
+    padding: 8,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#4A4A4A',
+    marginLeft: 16,
+  },
+  imageContainer: {
+    width: '100%',
+    height: 300,
+    backgroundColor: '#000',
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'contain',
+  },
+  content: {
+    padding: 16,
+  },
+  section: {
+    marginBottom: 24,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
+    elevation: 2,
   },
-  actionText: {
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#4A4A4A',
+    marginBottom: 12,
+  },
+  headline: {
     fontSize: 16,
-    color: "#4A4A4A",
-    marginLeft: 8,
+    color: '#4A4A4A',
+    marginBottom: 12,
   },
-  disclaimerContainer: {
-    flexDirection: "row",
-    alignItems: "flex-start",
-    backgroundColor: "rgba(255, 255, 255, 0.5)",
-    padding: 15,
-    borderRadius: 10,
-    marginTop: 20,
+  moodContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
   },
-  disclaimerText: {
-    fontSize: 12,
-    color: "#4A4A4A",
-    marginLeft: 10,
+  moodLabel: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    marginRight: 8,
+  },
+  moodValue: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    textTransform: 'capitalize',
+    marginRight: 8,
+  },
+  moodEmoji: {
+    fontSize: 20,
+  },
+  stageText: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    lineHeight: 24,
+  },
+  emotionalState: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    lineHeight: 24,
+  },
+  insightItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  insightText: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    marginLeft: 12,
     flex: 1,
   },
-})
+  recommendationItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  recommendationText: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    marginLeft: 12,
+    flex: 1,
+  },
+  confidenceContainer: {
+    marginBottom: 24,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  confidenceLabel: {
+    fontSize: 16,
+    color: '#4A4A4A',
+    marginBottom: 8,
+  },
+  confidenceBar: {
+    height: 8,
+    backgroundColor: '#E5E5E5',
+    borderRadius: 4,
+    marginBottom: 8,
+  },
+  confidenceFill: {
+    height: '100%',
+    backgroundColor: '#FFB88E',
+    borderRadius: 4,
+  },
+  confidenceValue: {
+    fontSize: 14,
+    color: '#4A4A4A',
+    textAlign: 'right',
+  },
+});
 
-export default AnalysisScreen
+export default AnalysisScreen;
