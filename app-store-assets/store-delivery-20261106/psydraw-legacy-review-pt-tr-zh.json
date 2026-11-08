@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/pt-BR/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pt-BR/02-settings-preview.png",
+    "app-store-assets/localize/generated/tr/01-empty-timeline.png",
+    "app-store-assets/localize/generated/tr/02-settings-preview.png",
+    "app-store-assets/localize/generated/zh-Hans/01-empty-timeline.png",
+    "app-store-assets/localize/generated/zh-Hans/02-settings-preview.png"
+  ],
+  "notes": "Reviewed Portuguese/Turkish/Simplified Chinese pairs individually. Headline/body/prototype and English-screen disclosure legible, accents and dotted I/glyphs visible. Complete unchanged English Timeline empty state with blank image area and correct active tab; Settings credit3, all3switchesOFF, Privacy/Support rows and active Settings retained. No offscreen fields or functionality claims added."
+}

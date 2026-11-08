@@ -1,0 +1,6 @@
+[
+  {
+    "master": "app-store-assets/localize/generated/fr-FR/01-empty-timeline.png",
+    "reason": "French footer rendered plain Ecran instead of accented Écran; retained as unselected draft, corrected sibling selected for export."
+  }
+]

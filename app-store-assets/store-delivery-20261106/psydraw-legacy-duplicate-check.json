@@ -1,0 +1,48 @@
+{
+  "app": "DrawInsight / PsyDraw legacy prototype",
+  "repository": "PsyDraw",
+  "freshPull": "main up to date at 6e1ffeadade32d1f826e51c2e5008bebcef13586",
+  "preservedOriginalChanges": 19,
+  "existingArtwork": "Ignored-inclusive audit found zero localized or unassigned store artwork; target folders checked again. Completed PsyDrawReact and v0 variants have materially different primary UI, no blind reuse.",
+  "currentUI": "Actual isolated current-source component Timeline and initial Settings viewports captured 430x932 scale3. Timeline large blank missing-image area retained; Settings credit3, three toggles OFF, Support visible, Settings selected.",
+  "runtimeLimitations": "Prototype preview, English UI explicitly disclosed. Current source App.tsx and native screen components run in an isolated Expo52/React18 component runtime, adapted from declared Next14.1/Expo49. Original 19 working changes and 64 source/asset files preserved. Source empty-image URL absent and not repaired. Only fresh onboarded local storage credits3/analyses[]; no accounts, camera, AI, purchases or switches operated. One blocked unused Expo QR worker CDN error recorded, other page errors rejected. No original Next or native-build verification, language-support, health/privacy assurance or store availability claim.",
+  "sourceProof": [
+    {
+      "file": "package.json",
+      "sha256": "5cf57cdee231580654532b20fa746418c8eb08f943e5ea1f55c32f48cb81fad5"
+    },
+    {
+      "file": "App.tsx",
+      "sha256": "86866f9201c6285142243c48c2dbd089ffa658ff5d8eb5d95234b9028b1a0820"
+    },
+    {
+      "file": "app/page.tsx",
+      "sha256": "fe620e8ba45a6e8e9dc2443111a163f39882dea4d8f9328a4385cca16998f653"
+    },
+    {
+      "file": "app/layout.tsx",
+      "sha256": "bbd4e62e612fdf2b968d0a652d5f55a518312bb581e45a2d82b8925a5d0093ec"
+    },
+    {
+      "file": "context/AppContext.tsx",
+      "sha256": "429bb91090baaf6ef98901f00f68345d9a88e01df8d5d8fd309a1a1bb6744a0b"
+    },
+    {
+      "file": "navigation/AppNavigator.tsx",
+      "sha256": "b94f8730883488c6a05c3b739664897426740480e632e18f6d48ce2383a94a75"
+    },
+    {
+      "file": "screens/TimelineScreen.tsx",
+      "sha256": "3d8e63af01666ad39c504930cd678d99fd7706c45aadbfbedc56e5418a52ede5"
+    },
+    {
+      "file": "screens/SettingsScreen.tsx",
+      "sha256": "ad90048b5bc5b0a06735c93f76445f60a9a0b7f98580a2612b9535ef458cafed"
+    },
+    {
+      "file": "components/theme-provider.tsx",
+      "sha256": "18507aea59905131bf40c4687fe7233877843e498592b6ad813d277157874fc8"
+    }
+  ],
+  "deliverable": "20 locales, two reviewed prototype previews each, RGB contain exports for Apple1290x2796 and Play1080x1920. Store-size design drafts, not proof of native Android/iOS availability."
+}

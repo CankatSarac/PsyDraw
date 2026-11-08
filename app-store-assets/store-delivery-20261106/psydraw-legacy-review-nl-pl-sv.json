@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/nl-NL/01-empty-timeline.png",
+    "app-store-assets/localize/generated/nl-NL/02-settings-preview.png",
+    "app-store-assets/localize/generated/pl/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pl/02-settings-preview.png",
+    "app-store-assets/localize/generated/sv/01-empty-timeline.png",
+    "app-store-assets/localize/generated/sv/02-settings-preview.png"
+  ],
+  "notes": "Viewed Dutch/Polish/Swedish pairs individually. Native headlines/support and English-screen/prototype disclosures fit, Dutch één accents and Swedish diacritics retained. Original English Timeline and Settings structure, blank image area, credit3/allOFFswitches/Support and selected tabs preserved. Complete devices within frame; no new app states/features."
+}

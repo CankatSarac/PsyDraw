@@ -1,0 +1,11 @@
+{
+  "uiText": "No analyses yet\nCapture your first drawing to see the analysis here\nCapture Drawing\nTimeline\nTimeline\nCapture\nSettings",
+  "errors": [
+    "Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'https://cdn.jsdelivr.net/npm/jsqr@1.2.0/dist/jsQR.min.js' failed to load."
+  ],
+  "acceptedNonvisualWorkerError": "Only blocked unused Expo camera QR worker jsQR CDN importScripts failure accepted; no camera/QR component operated. Other page errors rejected.",
+  "blockedExternalRequests": [
+    "https://cdn.jsdelivr.net/npm/jsqr@1.2.0/dist/jsQR.min.js"
+  ],
+  "source": "Current source App.tsx/navigation/screens in isolated Expo52 React18 component runtime, adapted from declared Next14/Expo49. No original files changed. Only clean local hasLaunched true/credits3/analyses[] fixture. Original /empty-timeline.png URL not repaired, no synthetic image injection. No camera tab, capture, uploads, accounts, API keys, AI, purchase, privacy links or switches operated. Prototype runtime preview, not original Next/native verification."
+}

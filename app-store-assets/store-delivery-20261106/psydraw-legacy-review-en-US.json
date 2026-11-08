@@ -1,0 +1,8 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/en-US/01-empty-timeline.png",
+    "app-store-assets/localize/generated/en-US/02-settings-preview.png"
+  ],
+  "notes": "Both English outputs individually viewed against current-source component captures. Timeline preserves large missing-image blank area, lower empty copy/button, Timeline active and three tabs. Settings preserves full visible Account through Support rows, credit3, three OFF switches, Settings active, no offscreen API fields. DrawInsight brand, prototype/English-screen footer and exterior headlines legible, no extra app function or result claims. Generated materials/type geometry illustrative."
+}

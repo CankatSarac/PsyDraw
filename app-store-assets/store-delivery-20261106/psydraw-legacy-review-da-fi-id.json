@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/da/01-empty-timeline.png",
+    "app-store-assets/localize/generated/da/02-settings-preview.png",
+    "app-store-assets/localize/generated/fi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/fi/02-settings-preview.png",
+    "app-store-assets/localize/generated/id/01-empty-timeline.png",
+    "app-store-assets/localize/generated/id/02-settings-preview.png"
+  ],
+  "notes": "All Danish/Finnish/Indonesian outputs individually inspected. Long Finnish headline and all exterior body/footer text fit, native accents legible, disclosures explicit prototype and English UI. Both original English screen structures retained: Timeline blank image region/empty copy/button/Timelineactive; Settings3credits/3OFFtoggles/Support/Settingsactive. No extra app content or claims."
+}

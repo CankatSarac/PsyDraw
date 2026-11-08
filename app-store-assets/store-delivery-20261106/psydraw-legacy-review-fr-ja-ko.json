@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/fr-FR/01-empty-timeline-accent-v2.png",
+    "app-store-assets/localize/generated/fr-FR/02-settings-preview.png",
+    "app-store-assets/localize/generated/ja/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ja/02-settings-preview.png",
+    "app-store-assets/localize/generated/ko/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ko/02-settings-preview.png"
+  ],
+  "notes": "Individually viewed French/Japanese/Korean pairs. Rejected French Timeline first draft for missing acute on Ecran; reviewed corrected 01-empty-timeline-accent-v2 with clear Écran and original composition/UI preserved. French Settings Écran/accents, Japanese/Korean glyphs and disclosures legible. Timeline blank area/active tab and Settings3credits/3OFFswitches/Support/activeSettings intact. Unselected first French draft retained but not approved/exported."
+}

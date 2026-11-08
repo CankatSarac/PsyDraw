@@ -1,0 +1,82 @@
+{
+  "en-US": [
+    "app-store-assets/localize/generated/en-US/01-empty-timeline.png",
+    "app-store-assets/localize/generated/en-US/02-settings-preview.png"
+  ],
+  "ar-SA": [
+    "app-store-assets/localize/generated/ar-SA/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ar-SA/02-settings-preview.png"
+  ],
+  "de-DE": [
+    "app-store-assets/localize/generated/de-DE/01-empty-timeline.png",
+    "app-store-assets/localize/generated/de-DE/02-settings-preview.png"
+  ],
+  "es-ES": [
+    "app-store-assets/localize/generated/es-ES/01-empty-timeline.png",
+    "app-store-assets/localize/generated/es-ES/02-settings-preview.png"
+  ],
+  "fr-FR": [
+    "app-store-assets/localize/generated/fr-FR/02-settings-preview.png",
+    "app-store-assets/localize/generated/fr-FR/01-empty-timeline-accent-v2.png"
+  ],
+  "ja": [
+    "app-store-assets/localize/generated/ja/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ja/02-settings-preview.png"
+  ],
+  "ko": [
+    "app-store-assets/localize/generated/ko/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ko/02-settings-preview.png"
+  ],
+  "pt-BR": [
+    "app-store-assets/localize/generated/pt-BR/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pt-BR/02-settings-preview.png"
+  ],
+  "tr": [
+    "app-store-assets/localize/generated/tr/01-empty-timeline.png",
+    "app-store-assets/localize/generated/tr/02-settings-preview.png"
+  ],
+  "zh-Hans": [
+    "app-store-assets/localize/generated/zh-Hans/01-empty-timeline.png",
+    "app-store-assets/localize/generated/zh-Hans/02-settings-preview.png"
+  ],
+  "hi": [
+    "app-store-assets/localize/generated/hi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/hi/02-settings-preview.png"
+  ],
+  "it": [
+    "app-store-assets/localize/generated/it/01-empty-timeline.png",
+    "app-store-assets/localize/generated/it/02-settings-preview.png"
+  ],
+  "ru": [
+    "app-store-assets/localize/generated/ru/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ru/02-settings-preview.png"
+  ],
+  "nl-NL": [
+    "app-store-assets/localize/generated/nl-NL/01-empty-timeline.png",
+    "app-store-assets/localize/generated/nl-NL/02-settings-preview.png"
+  ],
+  "pl": [
+    "app-store-assets/localize/generated/pl/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pl/02-settings-preview.png"
+  ],
+  "sv": [
+    "app-store-assets/localize/generated/sv/01-empty-timeline.png",
+    "app-store-assets/localize/generated/sv/02-settings-preview.png"
+  ],
+  "da": [
+    "app-store-assets/localize/generated/da/01-empty-timeline.png",
+    "app-store-assets/localize/generated/da/02-settings-preview.png"
+  ],
+  "fi": [
+    "app-store-assets/localize/generated/fi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/fi/02-settings-preview.png"
+  ],
+  "id": [
+    "app-store-assets/localize/generated/id/01-empty-timeline.png",
+    "app-store-assets/localize/generated/id/02-settings-preview.png"
+  ],
+  "th": [
+    "app-store-assets/localize/generated/th/01-empty-timeline.png",
+    "app-store-assets/localize/generated/th/02-settings-preview.png"
+  ]
+}

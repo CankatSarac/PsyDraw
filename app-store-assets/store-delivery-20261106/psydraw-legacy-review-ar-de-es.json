@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/ar-SA/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ar-SA/02-settings-preview.png",
+    "app-store-assets/localize/generated/de-DE/01-empty-timeline.png",
+    "app-store-assets/localize/generated/de-DE/02-settings-preview.png",
+    "app-store-assets/localize/generated/es-ES/01-empty-timeline.png",
+    "app-store-assets/localize/generated/es-ES/02-settings-preview.png"
+  ],
+  "notes": "Viewed all six Arabic/German/Spanish images individually. Exterior copy and mandatory prototype/English-screen disclosures legible, RTL Arabic outside/LTR app preserved, German/Spanish text fits. Timeline missing-image blank area and active Timeline tab retained; Settings3credits/all3togglesOFF/Support/activeSettings intact, no extra fields/results/features."
+}

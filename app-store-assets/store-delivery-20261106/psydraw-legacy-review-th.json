@@ -1,0 +1,8 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/th/01-empty-timeline.png",
+    "app-store-assets/localize/generated/th/02-settings-preview.png"
+  ],
+  "notes": "Both Thai outputs individually inspected. Headline/body/prototype English-screen footer and native marks legible within margins. Full current-source English Timeline with missing-image blank area/selectedTimeline, and Settings with3credits/3OFFswitches/Support/selectedSettings retained, no offscreen fields/results or new claims."
+}

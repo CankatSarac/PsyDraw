@@ -1,0 +1,1897 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-06",
+  "targetLocales": [
+    "en-US",
+    "ar-SA",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "ja",
+    "ko",
+    "pt-BR",
+    "tr",
+    "zh-Hans",
+    "hi",
+    "it",
+    "ru",
+    "nl-NL",
+    "pl",
+    "sv",
+    "da",
+    "fi",
+    "id",
+    "th"
+  ],
+  "locales": [
+    "ar-SA",
+    "da",
+    "de-DE",
+    "en-US",
+    "es-ES",
+    "fi",
+    "fr-FR",
+    "hi",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "nl-NL",
+    "pl",
+    "pt-BR",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "zh-Hans"
+  ],
+  "missingTargetLocales": [],
+  "operation": "Size and RGB encoding only. Existing creatives preserved; translations are separate imagegen jobs.",
+  "storeSpecifications": {
+    "apple": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+    "googlePlay": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en"
+  },
+  "existingAppleAssets": [],
+  "exports": [
+    {
+      "source": "app-store-assets/localize/generated/ar-SA/01-empty-timeline.png",
+      "sourceSha256": "6dfe07526aca97160dfee141d8f6d5283b6f1c38388bc937cf2487b55243c181",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "app-store-assets/screenshots-ready/ar-SA/01-empty-timeline.png",
+      "sha256": "04cee5066e499dbcabcf6bebc32e82d690802e93dc55f3c162b059fa7374073b",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2796
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ar-SA",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ar-SA/02-settings-preview.png",
+      "sourceSha256": "614926592c91ad87ae7ea96e977d38e58285532bd81565b4879bd8591b455f45",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ar-SA/02-settings-preview.png",
+      "sha256": "620cf9f6cc6c53b5e3ef0aeda2056c3aeb509ff1901b20542009b6d1b5b85f92",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ar-SA",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/da/01-empty-timeline.png",
+      "sourceSha256": "04672ecbc69516d9763e6ad2c05f0d1e37350db12c807e2d74048d2640369402",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/da/01-empty-timeline.png",
+      "sha256": "ffe2652b404533ac09542c336b9c4a08ccb3c305ab93ff5d742513fb1eee77fa",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "da",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/da/02-settings-preview.png",
+      "sourceSha256": "8ad30498b28dcdbd2270f98471e2264070f6b93ab72ce89a9bc38a11de7bcda7",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/da/02-settings-preview.png",
+      "sha256": "7977e24fa1722e0bde47c29203953901fb1a99b41719b1b470ec8046414c0d96",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "da",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/de-DE/01-empty-timeline.png",
+      "sourceSha256": "ffd89c7cb17806d9ffef85651518b083ab9b4c5a5a3896b5f074fcfa5105044d",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/de-DE/01-empty-timeline.png",
+      "sha256": "b7be33f31acf951f0e0e1b775f176561ff3f06b6a381fb68dc7702ba9ac917cd",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "de-DE",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/de-DE/02-settings-preview.png",
+      "sourceSha256": "6b81577e7a6533ae7caf411b79a6ff4b4c307ab062bd20b3c518000c7776666a",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/de-DE/02-settings-preview.png",
+      "sha256": "4deae939a0e93bc98305d4027e3793ece50970b4255689f693425d4b9edeff57",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "de-DE",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/en-US/01-empty-timeline.png",
+      "sourceSha256": "8cfa431e6797eb54fc5fb452c2dcba84b6e1bd08a2b44f350d95bcccf42840fd",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/en-US/01-empty-timeline.png",
+      "sha256": "2992d46b8cdfd58c71e3f2e5887ad85d6053a157175e0b25df0eb07a5e218e6e",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "en-US",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/en-US/02-settings-preview.png",
+      "sourceSha256": "7cc687daeb10796c420310222ffa7c6e193c98ac80bda4cfd08666ed1fa0b6c9",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/en-US/02-settings-preview.png",
+      "sha256": "66663f84071eeabfeb27ec7b7ff7945cf7b2dd9b11450825d1f691db3dc0b907",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "en-US",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/es-ES/01-empty-timeline.png",
+      "sourceSha256": "85badcb47749810d2517581c5ef4684b09663b6a384603ff786ad59835b75894",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "app-store-assets/screenshots-ready/es-ES/01-empty-timeline.png",
+      "sha256": "c26182e5f2e25baa57153ed23679ffc595e41f7bc64774a88c63a5f62a69180f",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2796
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "es-ES",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/es-ES/02-settings-preview.png",
+      "sourceSha256": "e8cc2c157ad08cc9406f590d8c24910031b279c88ccf046af2051e4803696acb",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/es-ES/02-settings-preview.png",
+      "sha256": "a3d452610b1e5c503162bde9af45f2e3c57541c4fd385010ba35e9fc13ec5094",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "es-ES",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fi/01-empty-timeline.png",
+      "sourceSha256": "7d9aff8b939197f2c7daf5b3585907232c2d4e2b51233f9ca22c88003325d1ea",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/fi/01-empty-timeline.png",
+      "sha256": "6a11c9c0ec6841889cb20a02c922a15c1dd152b063b372e71625b01dfd5e32c5",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fi",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fi/02-settings-preview.png",
+      "sourceSha256": "69ab55141f480bb32c02e7f0478b668bfacd70566961534899b629618a77f081",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/fi/02-settings-preview.png",
+      "sha256": "e578f48061430df9016acc456cd79fd8f7782c24a52867c03eae1036d8d4dc0c",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fi",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fr-FR/02-settings-preview.png",
+      "sourceSha256": "99b6e28224ca185d0547a4cdda8e1258586a297d573eeac14d222fe4c757a2f5",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/fr-FR/01-settings-preview.png",
+      "sha256": "4f3666b6a0e7d76ce3dff861301c4bce9c78fc4c8ac678fb17f11e32541d0b4b",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fr-FR",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fr-FR/01-empty-timeline-accent-v2.png",
+      "sourceSha256": "ca52996cd460888065a3460cd0569510b6c60a7fb376ae5d49c5184d241fc53a",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/fr-FR/02-empty-timeline-accent-v2.png",
+      "sha256": "7d10eb1f8613b96cec5435dafc5aa3ddaf0c2da4dd2f245a44865387f8e7092b",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fr-FR",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/hi/01-empty-timeline.png",
+      "sourceSha256": "14e307e578247430ba1fcabcd5658bd51e867031ef57baef0eb05e1fa57f1da2",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "app-store-assets/screenshots-ready/hi/01-empty-timeline.png",
+      "sha256": "da7d3d19f1df2cfd229182950146c9c11ae7e5f8a01d279ddf6f687ff7d589e3",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2789
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "hi",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/hi/02-settings-preview.png",
+      "sourceSha256": "7119930b62e3546b4d32c15c4c69b3f0f39123611440a43ac11d3e3dba298aba",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/hi/02-settings-preview.png",
+      "sha256": "cca57eb7a03d91703df0a21c18cb821e06476e3b00ff10c885f01e411fef439e",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "hi",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/id/01-empty-timeline.png",
+      "sourceSha256": "3b9573e43e1fc2a6e265a6e1a509d7cc60d68467a4b1163517d1ce954ef915db",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/id/01-empty-timeline.png",
+      "sha256": "3dad658deaff6bd0e88c5aed47d4b7e0ea4454b075bad3a4d43fdd1d9ea51053",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "id",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/id/02-settings-preview.png",
+      "sourceSha256": "c9d24eeac0bb570fa34b8dbf7b9f36b020894404f0bbf0f6f7c9f0af81c18a3c",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/id/02-settings-preview.png",
+      "sha256": "3ef4c352b56999d23cf04a8965bc3d7dfea27dfbae2e648e1c04130301d07bb5",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "id",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/it/01-empty-timeline.png",
+      "sourceSha256": "93489900bb7b2b1af781efc4f305213c38d1e0497262125856e2e7e948787c5e",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/it/01-empty-timeline.png",
+      "sha256": "986d2ddb2a0ce800d0166bc484da7c67943e6383803fc0d27ce00781b46fe0c7",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "it",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/it/02-settings-preview.png",
+      "sourceSha256": "3e9e6e4974def6f37af7f9eda37e610e2afadc2c3d92ef8cb8854c6d620e212b",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/it/02-settings-preview.png",
+      "sha256": "84415305c5f14518e39a31c3ccf2fc12b313021b546d5b4683f414c053f4131b",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "it",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ja/01-empty-timeline.png",
+      "sourceSha256": "36ef0189c12344a395b93ba29380fd9f4cdfbe614a672a964248e7864d7b1a75",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ja/01-empty-timeline.png",
+      "sha256": "10d213bc85fb75eddcac12f695f5c202baa3c6f1e236ee507f5313566c8c116b",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ja",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ja/02-settings-preview.png",
+      "sourceSha256": "50c12d36e0c83535bad238695e4a57b86564be21530f732e2b9d515a5e536d40",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ja/02-settings-preview.png",
+      "sha256": "3ad6171d9a79c72ec061a891745f3f632dfc8c2255eab3850e7444eb27b4d64d",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ja",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ko/01-empty-timeline.png",
+      "sourceSha256": "2c08ba807b779de933b8ba5b011ef5fddf43e430236a5f5a920c90f0a627360e",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ko/01-empty-timeline.png",
+      "sha256": "a4f8b7319980fc6ad440c8bfb2437b1f83ece91558993b050d786a39d4f5e4f2",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ko",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ko/02-settings-preview.png",
+      "sourceSha256": "7353af2664f54b61b8c196b3a7e87c79ced1b82a76be8b7e9f1ccb9d2cc308c4",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ko/02-settings-preview.png",
+      "sha256": "dc69d9af1d65daf290543790880dc5226ac6c8faccc347d8551d89457cb8a707",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ko",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/nl-NL/01-empty-timeline.png",
+      "sourceSha256": "44f7f059adee1c487dc794fbe4c3146d25923829f865ce3d5567019cd33d143b",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/nl-NL/01-empty-timeline.png",
+      "sha256": "847e6b0b2b1657c68bc37e91eaea60c29a0be1e7942a761cad29c20521a3f4cc",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "nl-NL",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/nl-NL/02-settings-preview.png",
+      "sourceSha256": "29287772be214803f60585da726cb847c91357f9d18add6c33fe1c9d4a9ef946",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/nl-NL/02-settings-preview.png",
+      "sha256": "054e8ace4b2bb2d7a7f4123c5b2272414c37af170cf373584adbc518d6386d2c",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "nl-NL",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pl/01-empty-timeline.png",
+      "sourceSha256": "605649ce1a23b216d532e16c3e4256267e765c7f5f9873a3d91e74b167246eea",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/pl/01-empty-timeline.png",
+      "sha256": "9e237daa6b6dc87779e99e4a025aa91c87a889ef81bf9c163f15330af4a76671",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pl",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pl/02-settings-preview.png",
+      "sourceSha256": "700bb2b7d82655d821b327aabb2db943949b3339d9ab66818a203500796b78d3",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/pl/02-settings-preview.png",
+      "sha256": "38aa02af5a24819bff0868bee1a6f4679fbf4cf6c571c042b7c97e7155801131",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pl",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pt-BR/01-empty-timeline.png",
+      "sourceSha256": "ea35e4761d7f00ef1e9848cdd57bd55ae0e0418fc12680546f2c42f5020182a9",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "app-store-assets/screenshots-ready/pt-BR/01-empty-timeline.png",
+      "sha256": "c8db85d1f16f2396c69171e4616965a0e0d165f266838c6e179db2142ed3f135",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2789
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pt-BR",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pt-BR/02-settings-preview.png",
+      "sourceSha256": "dd84823d95f51654b6954f9d7eda08e5ae028dfe64a28fc6c8b685d06dd8790c",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/pt-BR/02-settings-preview.png",
+      "sha256": "ff255cb43bf6f6cbcc5aaeac5ab4fb17c0b356abc3aa22bb77881d238a5d7d25",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pt-BR",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ru/01-empty-timeline.png",
+      "sourceSha256": "5ffa0355d2d45f39577d869dcc9c37a804a851ee47267a4a1e1b597a62a78e0f",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ru/01-empty-timeline.png",
+      "sha256": "4c43c632541e03766d43afb2cc24a0206e4df2af8e5efed2ef59c47221f774d0",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ru",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ru/02-settings-preview.png",
+      "sourceSha256": "8a7dd69d798569d1267a6230808b71e3d48482e6ebd34b12f2e9fb4888882307",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/ru/02-settings-preview.png",
+      "sha256": "c44f3758e625f3e68ab38f36e1630c15740d25e7bbe4d4ebcd93fa20714291a8",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ru",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/sv/01-empty-timeline.png",
+      "sourceSha256": "6fac3bc32bbb88ec7e1247fb8726a278c087dce82039d93754219127f33abd94",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "app-store-assets/screenshots-ready/sv/01-empty-timeline.png",
+      "sha256": "05f3b81bbb598cd90705ba84fa6ce397e31590e87e487a6ac5642855ec12f04a",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2789
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "sv",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/sv/02-settings-preview.png",
+      "sourceSha256": "93ff170cf9fe92f2f7317e04cfab111cbb2d7c914e460e812c8b1211bbe4a56a",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "app-store-assets/screenshots-ready/sv/02-settings-preview.png",
+      "sha256": "827460b4de0a3ebeec3f286f7341f41d091a4b4667cb519efe6d5ad7958603ad",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2796
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "sv",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/th/01-empty-timeline.png",
+      "sourceSha256": "5da5f47816e9d69785a321e84579302f5f2c6f3a2ef25cb8e702d8cf8ad06ee8",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/th/01-empty-timeline.png",
+      "sha256": "081a704d84c0cc8b879e7b7f2a7d7b2f23648cdf0be284eaa1d51f29671ad9d4",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "th",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/th/02-settings-preview.png",
+      "sourceSha256": "f939422bbce07879c595d873e5d263016d61e7214df0c48f1ec3f3582a320510",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/th/02-settings-preview.png",
+      "sha256": "80503315848c8ef924348a47e833990c344a62b3b1f3c652600243e61b15262c",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "th",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/tr/01-empty-timeline.png",
+      "sourceSha256": "cbef56d5104725446a3f9e461dfd9447c588c40e1f9dda37e4b5807439a392c6",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/tr/01-empty-timeline.png",
+      "sha256": "f701ad7fae807180511659c331935b1f9d9b7add56f500794bcaca65032cd089",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "tr",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/tr/02-settings-preview.png",
+      "sourceSha256": "fcd804f2fa3f426be2ab0d2931051726b0b534e0606bb7c2025a80447bd5d386",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/tr/02-settings-preview.png",
+      "sha256": "b6ae88d8ef04be15afdb8387f7359aef641790c4dd28db9050d09e0ef2800a1a",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "tr",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/zh-Hans/01-empty-timeline.png",
+      "sourceSha256": "53464035e8eabc6d43cd5658d42d6ad579e504af0857f1064dec95d8892d1cb2",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/zh-Hans/01-empty-timeline.png",
+      "sha256": "dc8737476ea6764800f2e7535000b77c1f8cc81f977f2a71ee1c6b626cea25ac",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "zh-Hans",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/zh-Hans/02-settings-preview.png",
+      "sourceSha256": "504856178ca18724de9e47bbb52063f74b425edab9818af5363f9130d2265389",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "app-store-assets/screenshots-ready/zh-Hans/02-settings-preview.png",
+      "sha256": "2679c1f84298a01ef93898af95139620aa18ce649f363e42ece59d48aaae5141",
+      "size": [
+        1290,
+        2796
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        1290,
+        2795
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "zh-Hans",
+      "platform": "app-store-iphone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ar-SA/01-empty-timeline.png",
+      "sourceSha256": "6dfe07526aca97160dfee141d8f6d5283b6f1c38388bc937cf2487b55243c181",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "play-store-assets/screenshots-ready/ar/01-empty-timeline.png",
+      "sha256": "7888f6725dc4af740aaf135dd8ff0abee51aa6b46baa82c9d738ea2f4551eace",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ar-SA",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ar-SA/02-settings-preview.png",
+      "sourceSha256": "614926592c91ad87ae7ea96e977d38e58285532bd81565b4879bd8591b455f45",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ar/02-settings-preview.png",
+      "sha256": "1fdea080be5bce115c9afdd052ad73f6911f3ede6759725a3cf30b9a66f6bc1d",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ar-SA",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/da/01-empty-timeline.png",
+      "sourceSha256": "04672ecbc69516d9763e6ad2c05f0d1e37350db12c807e2d74048d2640369402",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/da-DK/01-empty-timeline.png",
+      "sha256": "4e9f0b8351208e6f50aca1a678d6971aa1b6a4af392b0bafa739dcea11a19d6d",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "da",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/da/02-settings-preview.png",
+      "sourceSha256": "8ad30498b28dcdbd2270f98471e2264070f6b93ab72ce89a9bc38a11de7bcda7",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/da-DK/02-settings-preview.png",
+      "sha256": "56e57afaba02b739cd4f5e272a85e53260f948a8f67cd2fd1fde0b0e2ead13b5",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "da",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/de-DE/01-empty-timeline.png",
+      "sourceSha256": "ffd89c7cb17806d9ffef85651518b083ab9b4c5a5a3896b5f074fcfa5105044d",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/de-DE/01-empty-timeline.png",
+      "sha256": "6dbd06e72a5f9ae3f8eef2c813766dc30ffa5b0153467585efd4ac93202070be",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "de-DE",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/de-DE/02-settings-preview.png",
+      "sourceSha256": "6b81577e7a6533ae7caf411b79a6ff4b4c307ab062bd20b3c518000c7776666a",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/de-DE/02-settings-preview.png",
+      "sha256": "641ad5ba547c22d97ceb12574a94f35a9cf6da89b97c1ebef7be5c909c2326d1",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "de-DE",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/en-US/01-empty-timeline.png",
+      "sourceSha256": "8cfa431e6797eb54fc5fb452c2dcba84b6e1bd08a2b44f350d95bcccf42840fd",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/en-US/01-empty-timeline.png",
+      "sha256": "6705146f2eb413679eaa0624587169c9fcd0db749ee73fd75d0232dd7b64e1af",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "en-US",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/en-US/02-settings-preview.png",
+      "sourceSha256": "7cc687daeb10796c420310222ffa7c6e193c98ac80bda4cfd08666ed1fa0b6c9",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/en-US/02-settings-preview.png",
+      "sha256": "f27bd512c89238382ba3909aca959dc688a3ca66eedf6f706d40417305459458",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "en-US",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/es-ES/01-empty-timeline.png",
+      "sourceSha256": "85badcb47749810d2517581c5ef4684b09663b6a384603ff786ad59835b75894",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "play-store-assets/screenshots-ready/es-ES/01-empty-timeline.png",
+      "sha256": "2f1098a6746c8a14bc0f580395f21aa53d8f65d4c1693d6f1984f6f246ccc371",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "es-ES",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/es-ES/02-settings-preview.png",
+      "sourceSha256": "e8cc2c157ad08cc9406f590d8c24910031b279c88ccf046af2051e4803696acb",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/es-ES/02-settings-preview.png",
+      "sha256": "8e79f0501648f144acf025bbd1701d3e43b1f511570571fd5d8dabbce736e37f",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "es-ES",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fi/01-empty-timeline.png",
+      "sourceSha256": "7d9aff8b939197f2c7daf5b3585907232c2d4e2b51233f9ca22c88003325d1ea",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/fi-FI/01-empty-timeline.png",
+      "sha256": "2a4b7ca438c987e39cab14f0c3b75ad65f3e176604692e92468c358ebbf8b378",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fi",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fi/02-settings-preview.png",
+      "sourceSha256": "69ab55141f480bb32c02e7f0478b668bfacd70566961534899b629618a77f081",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/fi-FI/02-settings-preview.png",
+      "sha256": "028b211bf29a33b7e0e2b02b4b409dbd59d8707f8ac7eb35820bb8ddfc2ba71d",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fi",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fr-FR/02-settings-preview.png",
+      "sourceSha256": "99b6e28224ca185d0547a4cdda8e1258586a297d573eeac14d222fe4c757a2f5",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/fr-FR/01-settings-preview.png",
+      "sha256": "e3eb361c67ef1c1f5434d34493dcae5474760269dfd0de3764f47c7f13abee5b",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fr-FR",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/fr-FR/01-empty-timeline-accent-v2.png",
+      "sourceSha256": "ca52996cd460888065a3460cd0569510b6c60a7fb376ae5d49c5184d241fc53a",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/fr-FR/02-empty-timeline-accent-v2.png",
+      "sha256": "e7ae573f08bb7e534c3a0bc52b3d08416b3c319b1bd52db3db6486f24e060f8a",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "fr-FR",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/hi/01-empty-timeline.png",
+      "sourceSha256": "14e307e578247430ba1fcabcd5658bd51e867031ef57baef0eb05e1fa57f1da2",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "play-store-assets/screenshots-ready/hi-IN/01-empty-timeline.png",
+      "sha256": "be46b94bb3898c338250fc95a01ac87a6b7cbeb8d497eb1811ef53b968b28173",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        888,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "hi",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/hi/02-settings-preview.png",
+      "sourceSha256": "7119930b62e3546b4d32c15c4c69b3f0f39123611440a43ac11d3e3dba298aba",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/hi-IN/02-settings-preview.png",
+      "sha256": "344329cc2918376217c6743cad4bef151154664789db4b0f8ac55be509800471",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "hi",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/id/01-empty-timeline.png",
+      "sourceSha256": "3b9573e43e1fc2a6e265a6e1a509d7cc60d68467a4b1163517d1ce954ef915db",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/id/01-empty-timeline.png",
+      "sha256": "1e094fe8454b46df76cfb67bc52a6f47581d489825bb54ea5b8cea1c45b76943",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "id",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/id/02-settings-preview.png",
+      "sourceSha256": "c9d24eeac0bb570fa34b8dbf7b9f36b020894404f0bbf0f6f7c9f0af81c18a3c",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/id/02-settings-preview.png",
+      "sha256": "24eac1bfe216e302c57dc70587e8752c2a82fd3854a58fe126a6b353e2f90daf",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "id",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/it/01-empty-timeline.png",
+      "sourceSha256": "93489900bb7b2b1af781efc4f305213c38d1e0497262125856e2e7e948787c5e",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/it-IT/01-empty-timeline.png",
+      "sha256": "01c460765e7a7953fdc226cc4f7aa354507c899231e77e73b4c095deb51b4763",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "it",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/it/02-settings-preview.png",
+      "sourceSha256": "3e9e6e4974def6f37af7f9eda37e610e2afadc2c3d92ef8cb8854c6d620e212b",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/it-IT/02-settings-preview.png",
+      "sha256": "df4f759d3b6e4cc72b1f137f96d444bb4b6ecd5139d5d195c2a800819551916b",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "it",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ja/01-empty-timeline.png",
+      "sourceSha256": "36ef0189c12344a395b93ba29380fd9f4cdfbe614a672a964248e7864d7b1a75",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ja-JP/01-empty-timeline.png",
+      "sha256": "40f10331d1d89b2789faf36a870af8569a4a10795032d1fe3016f44510931321",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ja",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ja/02-settings-preview.png",
+      "sourceSha256": "50c12d36e0c83535bad238695e4a57b86564be21530f732e2b9d515a5e536d40",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ja-JP/02-settings-preview.png",
+      "sha256": "53ae9177b48c7f245b89f71c0667789be550502a04bca8160b94b8f7ef4ae35c",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ja",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ko/01-empty-timeline.png",
+      "sourceSha256": "2c08ba807b779de933b8ba5b011ef5fddf43e430236a5f5a920c90f0a627360e",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ko-KR/01-empty-timeline.png",
+      "sha256": "0ad6392d376a29bad915e26c65bdcdf9016613cdc45ce83c2a357f99c0540bb2",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ko",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ko/02-settings-preview.png",
+      "sourceSha256": "7353af2664f54b61b8c196b3a7e87c79ced1b82a76be8b7e9f1ccb9d2cc308c4",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ko-KR/02-settings-preview.png",
+      "sha256": "ceb0b4d4f3aa0b0b9435e74874bcda93ee50f1a5cfeac143446dd41f9656e670",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ko",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/nl-NL/01-empty-timeline.png",
+      "sourceSha256": "44f7f059adee1c487dc794fbe4c3146d25923829f865ce3d5567019cd33d143b",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/nl-NL/01-empty-timeline.png",
+      "sha256": "8ac2209e71e32d133c0defbffb435272064034ced0dd50c03dae79fa8b5c340f",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "nl-NL",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/nl-NL/02-settings-preview.png",
+      "sourceSha256": "29287772be214803f60585da726cb847c91357f9d18add6c33fe1c9d4a9ef946",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/nl-NL/02-settings-preview.png",
+      "sha256": "483aef61e490bbe4ca65d8e421de3e6422479d0d411d247ad8ec1e21b8f0b2e3",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "nl-NL",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pl/01-empty-timeline.png",
+      "sourceSha256": "605649ce1a23b216d532e16c3e4256267e765c7f5f9873a3d91e74b167246eea",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/pl-PL/01-empty-timeline.png",
+      "sha256": "3fe85ed027a96fa782eb11c45c95361d5af52bc669dfb4e61d75a18126d0ca6c",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pl",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pl/02-settings-preview.png",
+      "sourceSha256": "700bb2b7d82655d821b327aabb2db943949b3339d9ab66818a203500796b78d3",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/pl-PL/02-settings-preview.png",
+      "sha256": "a4b3b010b8c52a96889492a8d05ec6cf5800f2202df4fda82313495e824b1fa0",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pl",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pt-BR/01-empty-timeline.png",
+      "sourceSha256": "ea35e4761d7f00ef1e9848cdd57bd55ae0e0418fc12680546f2c42f5020182a9",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "play-store-assets/screenshots-ready/pt-BR/01-empty-timeline.png",
+      "sha256": "4a72ab8c7b321a752f368516aef07551a11316388d7035d147804aa6b8a48907",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        888,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pt-BR",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/pt-BR/02-settings-preview.png",
+      "sourceSha256": "dd84823d95f51654b6954f9d7eda08e5ae028dfe64a28fc6c8b685d06dd8790c",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/pt-BR/02-settings-preview.png",
+      "sha256": "a4b2944f5c45bf06356a4d5a4a0189373fa52b14cef571e04c751d1008805d50",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "pt-BR",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ru/01-empty-timeline.png",
+      "sourceSha256": "5ffa0355d2d45f39577d869dcc9c37a804a851ee47267a4a1e1b597a62a78e0f",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ru-RU/01-empty-timeline.png",
+      "sha256": "ae723c23ce30493e2efe3ab359bd714d61058a0683b41b259b77b1d7a93764a8",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ru",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/ru/02-settings-preview.png",
+      "sourceSha256": "8a7dd69d798569d1267a6230808b71e3d48482e6ebd34b12f2e9fb4888882307",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/ru-RU/02-settings-preview.png",
+      "sha256": "fce427b3d1f77e781ffa29bb9ba6499bcd4f659b1da5b7d06572b4c8c5ce751d",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "ru",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/sv/01-empty-timeline.png",
+      "sourceSha256": "6fac3bc32bbb88ec7e1247fb8726a278c087dce82039d93754219127f33abd94",
+      "sourceSize": [
+        853,
+        1844
+      ],
+      "file": "play-store-assets/screenshots-ready/sv-SE/01-empty-timeline.png",
+      "sha256": "d047e540fe8f7fe71a99df4344361da6efa383752f918b133b40176e1c12383f",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        888,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "sv",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/sv/02-settings-preview.png",
+      "sourceSha256": "93ff170cf9fe92f2f7317e04cfab111cbb2d7c914e460e812c8b1211bbe4a56a",
+      "sourceSize": [
+        852,
+        1847
+      ],
+      "file": "play-store-assets/screenshots-ready/sv-SE/02-settings-preview.png",
+      "sha256": "88bde836a11267e97a934e3bb5ffc3f92a59723fa3aff7edd3438e2b912f13ec",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "sv",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/th/01-empty-timeline.png",
+      "sourceSha256": "5da5f47816e9d69785a321e84579302f5f2c6f3a2ef25cb8e702d8cf8ad06ee8",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/th/01-empty-timeline.png",
+      "sha256": "9b2f0087b0709736492e6ac492cb73b7398f21c0a986ecc58cd62d3c2b02d2f2",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "th",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/th/02-settings-preview.png",
+      "sourceSha256": "f939422bbce07879c595d873e5d263016d61e7214df0c48f1ec3f3582a320510",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/th/02-settings-preview.png",
+      "sha256": "a330a2cc32ac0ea72f3b37c3fbf38318fe0dfc0103b2cb3639dae1b5b9b4fab7",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "th",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/tr/01-empty-timeline.png",
+      "sourceSha256": "cbef56d5104725446a3f9e461dfd9447c588c40e1f9dda37e4b5807439a392c6",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/tr-TR/01-empty-timeline.png",
+      "sha256": "d036e1639e137daa26f6b41985c39794ec400dce55f6726ca8f85b765d94d8d2",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "tr",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/tr/02-settings-preview.png",
+      "sourceSha256": "fcd804f2fa3f426be2ab0d2931051726b0b534e0606bb7c2025a80447bd5d386",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/tr-TR/02-settings-preview.png",
+      "sha256": "165a206961688312c6c7eca9012a48738e8010c93ba0e1941e3e2e03867effa7",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "tr",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/zh-Hans/01-empty-timeline.png",
+      "sourceSha256": "53464035e8eabc6d43cd5658d42d6ad579e504af0857f1064dec95d8892d1cb2",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/zh-CN/01-empty-timeline.png",
+      "sha256": "bf276a8d2676d96a11653105cefc202c738ecb95d39ba9ce7ef45d9005538416",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "zh-Hans",
+      "platform": "google-play-phone"
+    },
+    {
+      "source": "app-store-assets/localize/generated/zh-Hans/02-settings-preview.png",
+      "sourceSha256": "504856178ca18724de9e47bbb52063f74b425edab9818af5363f9130d2265389",
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "file": "play-store-assets/screenshots-ready/zh-CN/02-settings-preview.png",
+      "sha256": "32881c71c7db61f96093a2d2182bf7957764fcf738684b7b077597c452ae1892",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "contentSize": [
+        886,
+        1920
+      ],
+      "fit": "contain",
+      "created": true,
+      "locale": "zh-Hans",
+      "platform": "google-play-phone"
+    }
+  ]
+}

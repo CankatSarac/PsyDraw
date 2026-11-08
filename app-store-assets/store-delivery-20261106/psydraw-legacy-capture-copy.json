@@ -1,0 +1,263 @@
+{
+  "sourceRepository": "C:\\Users\\Cankat\\Documents\\GitHub\\PsyDraw",
+  "captureProject": "C:\\Users\\Cankat\\Documents\\GitHub\\tmp\\store-assets-run-20261106\\psydraw-legacy-capture-project",
+  "sourceFiles": [
+    {
+      "file": "components/PaywallModal.tsx",
+      "sha256": "d34aa944ad8ec2d0006f3eae811acc1eb49dff5d0467c1cfe391bd27adbf62f7"
+    },
+    {
+      "file": "components/theme-provider.tsx",
+      "sha256": "18507aea59905131bf40c4687fe7233877843e498592b6ad813d277157874fc8"
+    },
+    {
+      "file": "components/ui/accordion.tsx",
+      "sha256": "1cc98c2ab5106d8d476f1da4aa8dd535198a8113513b2c918938ea76d90bbbc9"
+    },
+    {
+      "file": "components/ui/alert-dialog.tsx",
+      "sha256": "2ede53a17b342a8265b924563f08d352dc7358a91585b0332b3d4a055b692407"
+    },
+    {
+      "file": "components/ui/alert.tsx",
+      "sha256": "ed78a053a9db783f48d5dfab7398b630f87c17ed2e237b6f30a3eb153675960c"
+    },
+    {
+      "file": "components/ui/aspect-ratio.tsx",
+      "sha256": "589c299c27e2ad99c2e96c9a90e6ad49051cf99fc88f0c42a13465177379186f"
+    },
+    {
+      "file": "components/ui/avatar.tsx",
+      "sha256": "e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8"
+    },
+    {
+      "file": "components/ui/badge.tsx",
+      "sha256": "db977d821af56ae3fb7952182d9c0a076a10c75c38bc2d2b000827e720423d32"
+    },
+    {
+      "file": "components/ui/breadcrumb.tsx",
+      "sha256": "c3d3dcb0d82fc5e91d8830bac7fead905686fe876f1f42c3ed872bb0a6b6584e"
+    },
+    {
+      "file": "components/ui/button.tsx",
+      "sha256": "415ccc47cf69a2a87db699cc6da7f1fdcb799a1f40dab3a6220d91ac8da8abbe"
+    },
+    {
+      "file": "components/ui/calendar.tsx",
+      "sha256": "7626e43c40fbf82f96292c1ca8d8cb9ced31f257d83c9b0fe48694ec04d127b6"
+    },
+    {
+      "file": "components/ui/card.tsx",
+      "sha256": "69afcf9c8e58ca6c3acf43c5b1ec9186bb6c88952f0ff49345dd2666f93d5480"
+    },
+    {
+      "file": "components/ui/carousel.tsx",
+      "sha256": "69686986376cbc02a5f907b1ca8a7a759808c4e8df1200517c57ec749e8484cd"
+    },
+    {
+      "file": "components/ui/chart.tsx",
+      "sha256": "62ebd887366a84fc1c5f05fe1a2cb539db1869a73c9008e2cd74e1462075a4a3"
+    },
+    {
+      "file": "components/ui/checkbox.tsx",
+      "sha256": "870e9819040c04fe40dd869b1076f908c63661fae5c627d657d759e4532c2334"
+    },
+    {
+      "file": "components/ui/collapsible.tsx",
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04"
+    },
+    {
+      "file": "components/ui/command.tsx",
+      "sha256": "a19d8fdb1d4a6c02c071e1f35afab99b2e759c5cd04ded8c2bfd6ad84dfb8962"
+    },
+    {
+      "file": "components/ui/context-menu.tsx",
+      "sha256": "42db115335540179d04c5ef013399c4ef09789ffc87e340b8a9ad0a6d1c08ca9"
+    },
+    {
+      "file": "components/ui/dialog.tsx",
+      "sha256": "bb67c322bfde96ee051ae32c0760c65a1dea25146472d3bcaba5c21040ddeb7b"
+    },
+    {
+      "file": "components/ui/drawer.tsx",
+      "sha256": "774316527ddc577fc54012a0c898ebcf7cf8f11152126e550828b53004a5b70c"
+    },
+    {
+      "file": "components/ui/dropdown-menu.tsx",
+      "sha256": "ca0802c2e73d06aaca91242e6c2edb5451168c37770d2675bf98245d6f7f2517"
+    },
+    {
+      "file": "components/ui/form.tsx",
+      "sha256": "9a0acdbdf33f9ed3c450bba8e52ddd6e379f4c8b9881b95839bb62b2d0a83879"
+    },
+    {
+      "file": "components/ui/hover-card.tsx",
+      "sha256": "c6d7e532ba61870b182feffa9bcf468c385c99784123dbb50ae13d2282bd58ea"
+    },
+    {
+      "file": "components/ui/input-otp.tsx",
+      "sha256": "6bd87d79f93679b469b00eda027a7a37d841ad76ca40fa45d5b4639805e50aca"
+    },
+    {
+      "file": "components/ui/input.tsx",
+      "sha256": "b326e2af874b14aa2ac18096ddbec512c6258f3fafc20ba6c8262818d48e6a5b"
+    },
+    {
+      "file": "components/ui/label.tsx",
+      "sha256": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a"
+    },
+    {
+      "file": "components/ui/lucide.tsx",
+      "sha256": "5b0c05692a99348d0a2bb5a303c95175a0fbc80504632225a2b04b44163c1c98"
+    },
+    {
+      "file": "components/ui/menubar.tsx",
+      "sha256": "2e9ff10dead52ac74fe7863932edd31edcfeb7c637c7da4b82886ce73ec4b078"
+    },
+    {
+      "file": "components/ui/navigation-menu.tsx",
+      "sha256": "c07f503f41162b190bef100ba0ad31a8eaa9c790f3f782ba7df220e26f23b93a"
+    },
+    {
+      "file": "components/ui/pagination.tsx",
+      "sha256": "6d66283fc04f3901772f15f3108bda732efc75ce878e0d8ecf8f9fc3b0c63c26"
+    },
+    {
+      "file": "components/ui/popover.tsx",
+      "sha256": "8a10fdf10a500f709581fb49690c3a86c82d07db969266ee47bcad6f0c2782e5"
+    },
+    {
+      "file": "components/ui/progress.tsx",
+      "sha256": "8c036da4baed076de68d27719929dc98151a81b51456bfa6a2488d835303b1d7"
+    },
+    {
+      "file": "components/ui/radio-group.tsx",
+      "sha256": "4e0515412cad83083f8b13e0f8f6bbdd4dd74d4156601f969a353a822de66a50"
+    },
+    {
+      "file": "components/ui/resizable.tsx",
+      "sha256": "70d1e35a5fb0897af7063cdd841d8ed636e1c332ef7ea6469f0f175a5a93dddf"
+    },
+    {
+      "file": "components/ui/scroll-area.tsx",
+      "sha256": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377"
+    },
+    {
+      "file": "components/ui/select.tsx",
+      "sha256": "1aba9cfb792bfa02b0fc8764dfd524d23e2191367863545963940034f61526ee"
+    },
+    {
+      "file": "components/ui/separator.tsx",
+      "sha256": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec"
+    },
+    {
+      "file": "components/ui/sheet.tsx",
+      "sha256": "9051eb9d885a18c0521c63c945480effcfca29282d2a342cb3ce7f9d080c6d38"
+    },
+    {
+      "file": "components/ui/sidebar.tsx",
+      "sha256": "72aeae5c68c361fce30abd8926dd056e2a7351b16b9223347e1fa68610be3a69"
+    },
+    {
+      "file": "components/ui/skeleton.tsx",
+      "sha256": "a72a9d8fc1c1999b5411a33391c5e70048863c5865629077280e943ca85689a8"
+    },
+    {
+      "file": "components/ui/slider.tsx",
+      "sha256": "48bd0ba32cc7f341ecca995374be73111da2f761694cfcf91dbf8d4d9e632c06"
+    },
+    {
+      "file": "components/ui/sonner.tsx",
+      "sha256": "771ab8637d27384c3ed030ba3be01a07b90c791c294eae06646250f8e81bc49e"
+    },
+    {
+      "file": "components/ui/switch.tsx",
+      "sha256": "2cb63bb07b23867e89b026d82bd7817448511d4c547ec1f251d80f9edb4f4dfc"
+    },
+    {
+      "file": "components/ui/table.tsx",
+      "sha256": "1da243956282c040db49d5718d2f0093a705fbbdfa3a25f51c1a31a069c45093"
+    },
+    {
+      "file": "components/ui/tabs.tsx",
+      "sha256": "0a16955983c96c27e2a315ac3c930f624ff28f41a2815aa17151aa3bc574ebba"
+    },
+    {
+      "file": "components/ui/textarea.tsx",
+      "sha256": "aaf46918c590c2bf59e2afb7904dfd8e69317e12ee34ff93ed2746dd06cc994a"
+    },
+    {
+      "file": "components/ui/toast.tsx",
+      "sha256": "45f9af4bf527ecf86501fedcf1559b8338f9ad923e7ec817ba590a006a4a610d"
+    },
+    {
+      "file": "components/ui/toaster.tsx",
+      "sha256": "05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f"
+    },
+    {
+      "file": "components/ui/toggle-group.tsx",
+      "sha256": "dba95ead40d163af6959198ded9853a2cc9282b2cb534980f99937a65edf4e2d"
+    },
+    {
+      "file": "components/ui/toggle.tsx",
+      "sha256": "10783ad8d10a3405551a84e13d86dc2cb8f7b87005508e07445eab8b34d77032"
+    },
+    {
+      "file": "components/ui/tooltip.tsx",
+      "sha256": "e4c39a17833122e02fbe896914e466bf101ea7173dc3d8f18a0201414c74fffc"
+    },
+    {
+      "file": "components/ui/use-mobile.tsx",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
+    },
+    {
+      "file": "components/ui/use-toast.ts",
+      "sha256": "03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed"
+    },
+    {
+      "file": "context/AppContext.tsx",
+      "sha256": "429bb91090baaf6ef98901f00f68345d9a88e01df8d5d8fd309a1a1bb6744a0b"
+    },
+    {
+      "file": "navigation/AppNavigator.tsx",
+      "sha256": "b94f8730883488c6a05c3b739664897426740480e632e18f6d48ce2383a94a75"
+    },
+    {
+      "file": "screens/AnalysisDetailScreen.tsx",
+      "sha256": "5ca9280d90606a292557e901765b409605808987c71711d1fa088b7acda10aac"
+    },
+    {
+      "file": "screens/AnalysisScreen.tsx",
+      "sha256": "7fa0c68c35baed00349b9064c671f57bf26986b53bbfdb3604df99cb69ed33cd"
+    },
+    {
+      "file": "screens/CaptureScreen.tsx",
+      "sha256": "20d6c16eee07e479d47d6e50ab030a9c747de7c19b9c048968f778155bb79360"
+    },
+    {
+      "file": "screens/OnboardingScreen.tsx",
+      "sha256": "107a5160a03e879a71333f48e34f57726620c426823561d7c5506dc5693cec8a"
+    },
+    {
+      "file": "screens/SettingsScreen.tsx",
+      "sha256": "ad90048b5bc5b0a06735c93f76445f60a9a0b7f98580a2612b9535ef458cafed"
+    },
+    {
+      "file": "screens/TimelineScreen.tsx",
+      "sha256": "3d8e63af01666ad39c504930cd678d99fd7706c45aadbfbedc56e5418a52ede5"
+    },
+    {
+      "file": "assets/empty-timeline.png",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "App.tsx",
+      "sha256": "86866f9201c6285142243c48c2dbd089ffa658ff5d8eb5d95234b9028b1a0820"
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "32d07c92bc5fde5bcbb11613b6f202b42dc788018173bd588debb0d74d759705"
+    }
+  ],
+  "method": "Isolated byte-identical App.tsx and React Native screen/component copy. Expo52/React18.3.1/react-native-web0.19.13 and navigation6 borrowed from completed PsyDrawReact. Original PsyDraw declares Next14.1/Expo49/RN0.73. No installed dependencies in original. Capture-only Expo entry bypasses Next shell; aliases to source and blocked unused AI service, no original source/config/manifests/locks edited. Local clean browser storage will set hasLaunched true/remainingCredits3/analyses[] only. No native build or exact original Next-runtime claim. Asset URL /empty-timeline.png is absent from public and will not be fabricated. No camera, account, API key, upload, AI or purchase operations."
+}

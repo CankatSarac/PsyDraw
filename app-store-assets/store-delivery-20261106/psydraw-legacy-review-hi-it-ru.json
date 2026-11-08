@@ -1,0 +1,12 @@
+{
+  "review": "passed",
+  "masters": [
+    "app-store-assets/localize/generated/hi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/hi/02-settings-preview.png",
+    "app-store-assets/localize/generated/it/01-empty-timeline.png",
+    "app-store-assets/localize/generated/it/02-settings-preview.png",
+    "app-store-assets/localize/generated/ru/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ru/02-settings-preview.png"
+  ],
+  "notes": "All Hindi/Italian/Russian outputs individually viewed. Devanagari, Italian apostrophes and Cyrillic headlines/support/disclosures legible without clipping. Original English Timeline blank area/button/three tabs and Settings credit3/threeOFFswitches/Support/activeSettings retained. No synthetic data or additional app functionality."
+}

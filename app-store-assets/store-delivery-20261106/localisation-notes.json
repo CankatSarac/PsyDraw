@@ -1,0 +1,11 @@
+{
+  "scope": "Store marketing artwork localisation only. Existing application language support is unchanged.",
+  "generation": "Built-in image_gen; one image per call; each output visually inspected before export.",
+  "newLocaleCount": 20,
+  "newImageCount": 40,
+  "reusedReviewedImageCount": 0,
+  "reusedRemoteImageCount": 0,
+  "preservedLocalImageCount": 0,
+  "uiLanguage": "Prototype preview, English UI explicitly disclosed. Current source App.tsx and native screen components run in an isolated Expo52/React18 component runtime, adapted from declared Next14.1/Expo49. Original 19 working changes and 64 source/asset files preserved. Source empty-image URL absent and not repaired. Only fresh onboarded local storage credits3/analyses[]; no accounts, camera, AI, purchases or switches operated. One blocked unused Expo QR worker CDN error recorded, other page errors rejected. No original Next or native-build verification, language-support, health/privacy assurance or store availability claim.",
+  "preservation": "Existing artwork and completed language sets retained; only missing locales generated."
+}
