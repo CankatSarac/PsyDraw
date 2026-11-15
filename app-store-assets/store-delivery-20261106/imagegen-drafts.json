@@ -612,5 +612,285 @@
     "tool": "built-in image_gen",
     "visualReview": "passed",
     "masterSha256": "f939422bbce07879c595d873e5d263016d61e7214df0c48f1ec3f3582a320510"
+  },
+  {
+    "spec": {
+      "locale": "en-US",
+      "language": "English",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Little art.\nBig smiles.",
+      "body": "A bright new spot in your Timeline.",
+      "disclosure": "Prototype preview. Fictional example. Screen in English."
+    },
+    "prompt": "Use case: ads-marketing. Create ONE joyful premium portrait app-store screenshot for DrawInsight (name exactly DrawInsight, WITHOUT 'ing'), aspect1290:2796. Reference1 is the AUTHORITATIVE current legacy native-prototype phone interface. Reference2 is only the art-direction reference: warm ivory textured sketchbook paper, cobalt wax-crayon headline, coral/yellow/sage scribble accents, tactile physical crayon objects and delightful orange-cat illustration. Reference3 is the fictional crayon drawing. Build a new composition with the CORRECT legacy interface from reference1, never use the different phone UI from reference2. Small DrawInsight wordmark at top, exact huge headline 'Little art. / Big smiles.' (slash means linebreak, never print slash), exact support 'A bright new spot in your Timeline.'. Strong playful typography, generous space, large phone roughly70percent canvas height and fully visible. The phone screen must show Timeline with ONE large white rounded drawing card: cropped orange-cat blue-house illustration, 'A little sunshine', smiling emoji, 'Nov 14, 2026', bullet 'An orange cat in a garden.', peach 'View Details' pill and coral x. Preserve source card proportions and the generous empty peach region below it, plus Timeline/Capture/Settings bottom tabs. Do not turn it into a list of3cards, do not add any new UI. A chunky joyful orange-cat wax-crayon figurine and blue crayon sit outside the phone in the lower foreground; a little yellow sun and coral/sage crayon marks make the scene warm and funny, never obscure controls. Keep every phone corner, footer, interface control and source disclaimer visible. Bottom exterior footer safely within margins: 'Prototype preview. Fictional example. Screen in English.'. Continuous full-height paper scene, no background bands or blurred fill. No rankings, awards, testimonials, accuracy or privacy claims, psychological predictions or invented features. This is a prototype artwork, not a validated clinical service. One complete image only.",
+    "master": "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "en-US",
+      "language": "English",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Look a little\ncloser.",
+      "body": "Open a drawing. Notice the details.",
+      "disclosure": "Prototype preview. Fictional example. Screen in English."
+    },
+    "prompt": "Use case: ads-marketing. Create ONE joyful premium portrait app-store screenshot for DrawInsight (name exactly DrawInsight, WITHOUT 'ing'), aspect1290:2796. Reference1 is the AUTHORITATIVE current legacy native-prototype phone interface. Reference2 is only the art-direction reference: warm ivory textured sketchbook paper, cobalt wax-crayon headline, coral/yellow/sage scribble accents, tactile physical crayon objects and delightful orange-cat illustration. Reference3 is the fictional crayon drawing. Build a new composition with the CORRECT legacy interface from reference1, never use the different phone UI from reference2. Small DrawInsight wordmark at top, exact huge headline 'Look a little / closer.' (slash means linebreak, never print slash), exact support 'Open a drawing. Notice the details.'. Strong playful typography, generous space, large phone roughly70percent canvas height and fully visible. The phone screen shows Analysis Details with back arrow, complete cat-and-house drawing, date November14,2026, 'A little sunshine' and smiling emoji, 'Key Insights', exactly two descriptive sample bullets 'An orange cat in a garden.' and 'A blue house and a yellow sun.', Save/Share/Delete controls, the original not-a-diagnostic-tool disclaimer, and Timeline/Capture/Settings tabs. Preserve all source geometry and English text. These are explicitly fictional visual observations, NOT real psychological findings. A paper drawing card and magnifying glass beside the phone create a distinct closer-look scene, with coral paperclip, cobalt scribble loop and yellow crayon; no duplicated phone. Keep every phone corner, footer, interface control and source disclaimer visible. Bottom exterior footer safely within margins: 'Prototype preview. Fictional example. Screen in English.'. Continuous full-height paper scene, no background bands or blurred fill. No rankings, awards, testimonials, accuracy or privacy claims, psychological predictions or invented features. This is a prototype artwork, not a validated clinical service. One complete image only.",
+    "master": "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ar-SA",
+      "language": "Arabic",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "رسمة صغيرة.\nفرحة كبيرة.",
+      "body": "إضافة مشرقة إلى سجلك.",
+      "disclosure": "معاينة نموذج أولي. أمثلة خيالية. الواجهة بالإنجليزية."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Arabic, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'رسمة صغيرة. / فرحة كبيرة.' (slash means balanced linebreak, NOT printed), support 'إضافة مشرقة إلى سجلك.', footer 'معاينة نموذج أولي. أمثلة خيالية. الواجهة بالإنجليزية.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Correctly joined RTL Arabic exterior; never mirror the English phone. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ar-SA/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ar-SA",
+      "language": "Arabic",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "انظر عن\nقرب.",
+      "body": "افتح رسمة وتأمّل تفاصيلها.",
+      "disclosure": "معاينة نموذج أولي. أمثلة خيالية. الواجهة بالإنجليزية."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Arabic, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'انظر عن / قرب.' (slash means balanced linebreak, NOT printed), support 'افتح رسمة وتأمّل تفاصيلها.', footer 'معاينة نموذج أولي. أمثلة خيالية. الواجهة بالإنجليزية.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Correctly joined RTL Arabic exterior; never mirror the English phone. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ar-SA/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "de-DE",
+      "language": "German",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Kleine Kunst.\nGroße Freude.",
+      "body": "Ein neuer Lichtblick in deiner Timeline.",
+      "disclosure": "Prototypvorschau. Fiktive Beispiele. Oberfläche auf Englisch."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in German, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Kleine Kunst. / Große Freude.' (slash means balanced linebreak, NOT printed), support 'Ein neuer Lichtblick in deiner Timeline.', footer 'Prototypvorschau. Fiktive Beispiele. Oberfläche auf Englisch.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/de-DE/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "de-DE",
+      "language": "German",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Schau etwas\ngenauer hin.",
+      "body": "Öffne eine Zeichnung. Entdecke die Details.",
+      "disclosure": "Prototypvorschau. Fiktive Beispiele. Oberfläche auf Englisch."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in German, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Schau etwas / genauer hin.' (slash means balanced linebreak, NOT printed), support 'Öffne eine Zeichnung. Entdecke die Details.', footer 'Prototypvorschau. Fiktive Beispiele. Oberfläche auf Englisch.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/de-DE/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "es-ES",
+      "language": "Spanish",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Dibujos pequeños.\nSonrisas grandes.",
+      "body": "Un nuevo toque de luz en tu Timeline.",
+      "disclosure": "Vista del prototipo. Ejemplos ficticios. Interfaz en inglés."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Spanish, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Dibujos pequeños. / Sonrisas grandes.' (slash means balanced linebreak, NOT printed), support 'Un nuevo toque de luz en tu Timeline.', footer 'Vista del prototipo. Ejemplos ficticios. Interfaz en inglés.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/es-ES/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "es-ES",
+      "language": "Spanish",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Mira un poco\nmás de cerca.",
+      "body": "Abre un dibujo. Descubre sus detalles.",
+      "disclosure": "Vista del prototipo. Ejemplos ficticios. Interfaz en inglés."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Spanish, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Mira un poco / más de cerca.' (slash means balanced linebreak, NOT printed), support 'Abre un dibujo. Descubre sus detalles.', footer 'Vista del prototipo. Ejemplos ficticios. Interfaz en inglés.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/es-ES/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "fr-FR",
+      "language": "French",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Petits dessins.\nGrands sourires.",
+      "body": "Une touche de soleil dans votre Timeline.",
+      "disclosure": "Aperçu du prototype. Exemples fictifs. Interface en anglais."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in French, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Petits dessins. / Grands sourires.' (slash means balanced linebreak, NOT printed), support 'Une touche de soleil dans votre Timeline.', footer 'Aperçu du prototype. Exemples fictifs. Interface en anglais.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/fr-FR/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "fr-FR",
+      "language": "French",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Regardez de\nplus près.",
+      "body": "Ouvrez un dessin. Observez ses détails.",
+      "disclosure": "Aperçu du prototype. Exemples fictifs. Interface en anglais."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in French, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Regardez de / plus près.' (slash means balanced linebreak, NOT printed), support 'Ouvrez un dessin. Observez ses détails.', footer 'Aperçu du prototype. Exemples fictifs. Interface en anglais.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/fr-FR/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ja",
+      "language": "Japanese",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "小さな絵。\n大きな笑顔。",
+      "body": "タイムラインに、明るいひとこま。",
+      "disclosure": "プロトタイプ画像。架空の表示例。画面は英語です。"
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Japanese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact '小さな絵。 / 大きな笑顔。' (slash means balanced linebreak, NOT printed), support 'タイムラインに、明るいひとこま。', footer 'プロトタイプ画像。架空の表示例。画面は英語です。'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ja/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ja",
+      "language": "Japanese",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "もう少し、\n近くで見よう。",
+      "body": "絵を開いて、細部を見つめよう。",
+      "disclosure": "プロトタイプ画像。架空の表示例。画面は英語です。"
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Japanese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'もう少し、 / 近くで見よう。' (slash means balanced linebreak, NOT printed), support '絵を開いて、細部を見つめよう。', footer 'プロトタイプ画像。架空の表示例。画面は英語です。'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ja/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ko",
+      "language": "Korean",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "작은 그림.\n환한 미소.",
+      "body": "타임라인을 밝혀 줄 새로운 그림.",
+      "disclosure": "프로토타입 미리보기. 가상의 예시. 화면은 영어입니다."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Korean, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact '작은 그림. / 환한 미소.' (slash means balanced linebreak, NOT printed), support '타임라인을 밝혀 줄 새로운 그림.', footer '프로토타입 미리보기. 가상의 예시. 화면은 영어입니다.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ko/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "ko",
+      "language": "Korean",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "조금 더\n자세히 봐요.",
+      "body": "그림을 열고 자세히 살펴보세요.",
+      "disclosure": "프로토타입 미리보기. 가상의 예시. 화면은 영어입니다."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Korean, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact '조금 더 / 자세히 봐요.' (slash means balanced linebreak, NOT printed), support '그림을 열고 자세히 살펴보세요.', footer '프로토타입 미리보기. 가상의 예시. 화면은 영어입니다.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/ko/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "pt-BR",
+      "language": "Brazilian Portuguese",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Pequenos desenhos.\nGrandes sorrisos.",
+      "body": "Um novo brilho na sua Timeline.",
+      "disclosure": "Prévia do protótipo. Exemplos fictícios. Interface em inglês."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Brazilian Portuguese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Pequenos desenhos. / Grandes sorrisos.' (slash means balanced linebreak, NOT printed), support 'Um novo brilho na sua Timeline.', footer 'Prévia do protótipo. Exemplos fictícios. Interface em inglês.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/pt-BR/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "pt-BR",
+      "language": "Brazilian Portuguese",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Olhe um pouco\nmais de perto.",
+      "body": "Abra um desenho. Repare nos detalhes.",
+      "disclosure": "Prévia do protótipo. Exemplos fictícios. Interface em inglês."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Brazilian Portuguese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Olhe um pouco / mais de perto.' (slash means balanced linebreak, NOT printed), support 'Abra um desenho. Repare nos detalhes.', footer 'Prévia do protótipo. Exemplos fictícios. Interface em inglês.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/pt-BR/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "tr",
+      "language": "Turkish",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "Küçük çizimler.\nBüyük gülümsemeler.",
+      "body": "Zaman çizelgene renk katan yeni bir çizim.",
+      "disclosure": "Prototip önizlemesi. Kurgusal örnekler. Ekran İngilizcedir."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Turkish, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Küçük çizimler. / Büyük gülümsemeler.' (slash means balanced linebreak, NOT printed), support 'Zaman çizelgene renk katan yeni bir çizim.', footer 'Prototip önizlemesi. Kurgusal örnekler. Ekran İngilizcedir.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/tr/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "tr",
+      "language": "Turkish",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "Biraz daha\nyakından bak.",
+      "body": "Bir çizim aç. Ayrıntıları fark et.",
+      "disclosure": "Prototip önizlemesi. Kurgusal örnekler. Ekran İngilizcedir."
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Turkish, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact 'Biraz daha / yakından bak.' (slash means balanced linebreak, NOT printed), support 'Bir çizim aç. Ayrıntıları fark et.', footer 'Prototip önizlemesi. Kurgusal örnekler. Ekran İngilizcedir.'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/tr/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "zh-Hans",
+      "language": "Simplified Chinese",
+      "name": "01-little-art-big-smiles-20261115",
+      "headline": "小小画作。\n满满笑容。",
+      "body": "为时间线添上一抹亮色。",
+      "disclosure": "原型预览。虚构示例。界面为英语。"
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Simplified Chinese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact '小小画作。 / 满满笑容。' (slash means balanced linebreak, NOT printed), support '为时间线添上一抹亮色。', footer '原型预览。虚构示例。界面为英语。'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Timeline; ONE large drawing card with orange-cat illustration, A little sunshine, Nov14,2026, An orange cat in a garden., View Details, smile emoji, coralx; generous empty peach region beneath; bottom Timeline/Capture/Settings tabs. No list of3cards. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/zh-Hans/01-little-art-big-smiles-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
+  },
+  {
+    "spec": {
+      "locale": "zh-Hans",
+      "language": "Simplified Chinese",
+      "name": "02-look-a-little-closer-20261115",
+      "headline": "再靠近一点，\n细细看。",
+      "body": "打开画作，发现细节。",
+      "disclosure": "原型预览。虚构示例。界面为英语。"
+    },
+    "prompt": "Use case: ads-marketing faithful localization. Create ONE tall portrait DrawInsight store poster in Simplified Chinese, aspect1290:2796, matching this approved reference exactly. Keep the DrawInsight Latin wordmark unchanged, warm ivory sketchbook paper, cobalt crayon headline, coral/yellow/sage marks, physical crayon objects, orange-cat illustration and complete large cream-metal phone. Change ONLY exterior headline to exact '再靠近一点， / 细细看。' (slash means balanced linebreak, NOT printed), support '打开画作，发现细节。', footer '原型预览。虚构示例。界面为英语。'. Headline2balancedlines or3ifneeded, native-script type, generous line spacing; no orphan, missing accent, collision or excessive font shrinking. Support and footer may wrap cleanly. Keep the joyful chunky wax-crayon letter style. Preserve ALL PHONE UI IN ENGLISH identically, including proportions and source controls: Analysis Details/back arrow;cat-and-house drawing;November14,2026;A little sunshine;smile emoji;Key Insights;two descriptive bullets An orange cat in a garden. / A blue house and a yellow sun.;Save/Share/Delete;the ORIGINAL English not-a-diagnostic-tool disclaimer;bottom navigation. These remain fictional visual observations, not psychological findings. Do not translate, mirror, remove or invent controls or content. Keep all phone corners, entire footer and original UI disclaimer visible. Continuous full-height paper scene, no padding bands, blur or empty welcome/settings screen. No awards, ratings, outcome/privacy claims, real assessments, extra feature promises or new text. One image only.",
+    "master": "app-store-assets/localize/generated/zh-Hans/02-look-a-little-closer-20261115.png",
+    "tool": "built-in image_gen",
+    "visualReview": "pending"
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "en-US": [
+    "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png"
+  ],
+  "ar-SA": [
+    "app-store-assets/localize/generated/ar-SA/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/ar-SA/02-look-a-little-closer-20261115.png"
+  ],
+  "de-DE": [
+    "app-store-assets/localize/generated/de-DE/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/de-DE/02-look-a-little-closer-20261115.png"
+  ],
+  "es-ES": [
+    "app-store-assets/localize/generated/es-ES/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/es-ES/02-look-a-little-closer-20261115.png"
+  ],
+  "fr-FR": [
+    "app-store-assets/localize/generated/fr-FR/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/fr-FR/02-look-a-little-closer-20261115.png"
+  ],
+  "ja": [
+    "app-store-assets/localize/generated/ja/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/ja/02-look-a-little-closer-20261115.png"
+  ],
+  "ko": [
+    "app-store-assets/localize/generated/ko/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/ko/02-look-a-little-closer-20261115.png"
+  ],
+  "pt-BR": [
+    "app-store-assets/localize/generated/pt-BR/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/pt-BR/02-look-a-little-closer-20261115.png"
+  ],
+  "tr": [
+    "app-store-assets/localize/generated/tr/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/tr/02-look-a-little-closer-20261115.png"
+  ],
+  "zh-Hans": [
+    "app-store-assets/localize/generated/zh-Hans/01-little-art-big-smiles-20261115.png",
+    "app-store-assets/localize/generated/zh-Hans/02-look-a-little-closer-20261115.png"
+  ]
+}

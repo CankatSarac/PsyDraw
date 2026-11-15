@@ -1,0 +1,5 @@
+DrawInsight native prototype campaign - 15 November 2026
+
+Use exports.json for the ten-language pair: Apple1290x2796 and GooglePlay1080x1920 RGBJPEG. See ui/source-reuse-proof.json and localisation-notes.json for source/fixture details.
+
+Selected published React Native prototype source snapshots rendered offline with inert adapters, one fictional local record, descriptive visual sample observations and a generated crayon drawing. Published source commit and current working-tree differences are recorded in ui/source-reuse-proof.json; current working edits are preserved. Headers/tabs are host approximations; AI posters approximate those UI renders. No live analysis, psychological assessment, native runtime, language support or camera operation was validated. Phone UI remains English. 

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-15",
+  "qualification": "Same selected included React Native Timeline/AnalysisDetail prototype UI only. v0-psydraw also contains a separate upload-only web App.jsx; that web entry point is not represented and no runtime service or psychological inference is validated.",
+  "repositories": {
+    "PsyDraw": {
+      "sourceSnapshotCommit": "daeff3d183a0c04a407001dc368fb0e65b24738f",
+      "method": "Included React Native TimelineScreen and AnalysisDetailScreen components, offline React Native Web SSR. One fictional local record with generated crayon drawing and two purely visual descriptive sample observations; not a generated psychological assessment. Detail useState initialized with fixture instead of useEffect lookup; all camera/media/network/navigation actions disabled. Header/tab host approximation. Not native captures.",
+      "fixture": {
+        "analyses": [
+          {
+            "id": "fictional-example-1",
+            "headline": "A little sunshine",
+            "createdAt": "2026-11-14T12:00:00.000Z",
+            "mood": "happy",
+            "insights": [
+              "An orange cat in a garden.",
+              "A blue house and a yellow sun."
+            ]
+          }
+        ],
+        "sampleArtSha256": "6736a0a7ee65f5db316f3128c040904fd4872a681cd7d7bbeaf8ee3539758e5a"
+      },
+      "sourceProof": [
+        {
+          "file": "screens/TimelineScreen.tsx",
+          "sha256": "0841a6345d1ccb5e0f27e5062076df21c59a578f0ae74de98b8647ab997b7119",
+          "workingTreeTextMatchesPublished": false,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "0841a6345d1ccb5e0f27e5062076df21c59a578f0ae74de98b8647ab997b7119"
+        },
+        {
+          "file": "components/ui/lucide.tsx",
+          "sha256": "5b0c05692a99348d0a2bb5a303c95175a0fbc80504632225a2b04b44163c1c98",
+          "workingTreeTextMatchesPublished": true,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "5b0c05692a99348d0a2bb5a303c95175a0fbc80504632225a2b04b44163c1c98"
+        },
+        {
+          "file": "screens/AnalysisDetailScreen.tsx",
+          "sha256": "5ca9280d90606a292557e901765b409605808987c71711d1fa088b7acda10aac",
+          "workingTreeTextMatchesPublished": true,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "5ca9280d90606a292557e901765b409605808987c71711d1fa088b7acda10aac"
+        }
+      ]
+    },
+    "v0-psydraw": {
+      "sourceSnapshotCommit": "826a7bf463bd50bd42ac9668bf68953ac427e490",
+      "method": "Included React Native TimelineScreen and AnalysisDetailScreen components, offline React Native Web SSR. One fictional local record with generated crayon drawing and two purely visual descriptive sample observations; not a generated psychological assessment. Detail useState initialized with fixture instead of useEffect lookup; all camera/media/network/navigation actions disabled. Header/tab host approximation. Not native captures.",
+      "fixture": {
+        "analyses": [
+          {
+            "id": "fictional-example-1",
+            "headline": "A little sunshine",
+            "createdAt": "2026-11-14T12:00:00.000Z",
+            "mood": "happy",
+            "insights": [
+              "An orange cat in a garden.",
+              "A blue house and a yellow sun."
+            ]
+          }
+        ],
+        "sampleArtSha256": "6736a0a7ee65f5db316f3128c040904fd4872a681cd7d7bbeaf8ee3539758e5a"
+      },
+      "sourceProof": [
+        {
+          "file": "screens/TimelineScreen.jsx",
+          "sha256": "c82eb7388088a29c4b416aa6cf0b1a553c0b06858a0eec31f6ef1b227826fb26",
+          "workingTreeTextMatchesPublished": true,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "c82eb7388088a29c4b416aa6cf0b1a553c0b06858a0eec31f6ef1b227826fb26"
+        },
+        {
+          "file": "components/ui/lucide.jsx",
+          "sha256": "64411112151c8b7e0d2bf5ec78b895138d6968dde95e4035112c8d66569db1c5",
+          "workingTreeTextMatchesPublished": true,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "64411112151c8b7e0d2bf5ec78b895138d6968dde95e4035112c8d66569db1c5"
+        },
+        {
+          "file": "screens/AnalysisDetailScreen.jsx",
+          "sha256": "4a3a54d923e68ea8ac8bbe2dc69d9667e06df4a312eb6e817c882029b39bc4d9",
+          "workingTreeTextMatchesPublished": true,
+          "publishedComparison": "Exact published source bytes rendered; current working-tree edits excluded and preserved",
+          "publishedSourceSha256": "4a3a54d923e68ea8ac8bbe2dc69d9667e06df4a312eb6e817c882029b39bc4d9"
+        }
+      ]
+    }
+  },
+  "renderParity": {
+    "timeline": {
+      "size": [
+        860,
+        1864
+      ],
+      "rgbaSha256": "dd381805561e594449301b457aa5526e1b1177e1391d48146627c2f964c10266",
+      "equal": true
+    },
+    "detail": {
+      "size": [
+        860,
+        1864
+      ],
+      "rgbaSha256": "165d268ef47a1851282ff45d83d968f6ba6c103b892619416dded6e55de4d982",
+      "equal": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "C:/Users/Cankat/Documents/GitHub/PsyDraw",
+  "jobs": [
+    {
+      "spec": {
+        "locale": "en-US",
+        "language": "English",
+        "name": "01-little-art-big-smiles-20261115",
+        "headline": "Little art.\nBig smiles.",
+        "body": "A bright new spot in your Timeline.",
+        "disclosure": "Prototype preview. Fictional example. Screen in English."
+      },
+      "references": [
+        "C:/Users/Cankat/Documents/GitHub/tmp/store-assets-run-20261106/drawing-legacy-native-20261115/PsyDraw/timeline.png",
+        "C:/Users/Cankat/Documents/GitHub/PsyDrawReact/app-store-assets/localize/generated/en-US/01-small-drawing-big-imagination-20261114.png",
+        "C:\\Users\\Cankat\\.codex\\generated_images\\01a1ca08-5659-7bb0-bb99-d5072f677cf4\\exec-7dea6e5e-c68f-44d8-89af-93b702dcaa94.png"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE joyful premium portrait app-store screenshot for DrawInsight (name exactly DrawInsight, WITHOUT 'ing'), aspect1290:2796. Reference1 is the AUTHORITATIVE current legacy native-prototype phone interface. Reference2 is only the art-direction reference: warm ivory textured sketchbook paper, cobalt wax-crayon headline, coral/yellow/sage scribble accents, tactile physical crayon objects and delightful orange-cat illustration. Reference3 is the fictional crayon drawing. Build a new composition with the CORRECT legacy interface from reference1, never use the different phone UI from reference2. Small DrawInsight wordmark at top, exact huge headline 'Little art. / Big smiles.' (slash means linebreak, never print slash), exact support 'A bright new spot in your Timeline.'. Strong playful typography, generous space, large phone roughly70percent canvas height and fully visible. The phone screen must show Timeline with ONE large white rounded drawing card: cropped orange-cat blue-house illustration, 'A little sunshine', smiling emoji, 'Nov 14, 2026', bullet 'An orange cat in a garden.', peach 'View Details' pill and coral x. Preserve source card proportions and the generous empty peach region below it, plus Timeline/Capture/Settings bottom tabs. Do not turn it into a list of3cards, do not add any new UI. A chunky joyful orange-cat wax-crayon figurine and blue crayon sit outside the phone in the lower foreground; a little yellow sun and coral/sage crayon marks make the scene warm and funny, never obscure controls. Keep every phone corner, footer, interface control and source disclaimer visible. Bottom exterior footer safely within margins: 'Prototype preview. Fictional example. Screen in English.'. Continuous full-height paper scene, no background bands or blurred fill. No rankings, awards, testimonials, accuracy or privacy claims, psychological predictions or invented features. This is a prototype artwork, not a validated clinical service. One complete image only."
+    },
+    {
+      "spec": {
+        "locale": "en-US",
+        "language": "English",
+        "name": "02-look-a-little-closer-20261115",
+        "headline": "Look a little\ncloser.",
+        "body": "Open a drawing. Notice the details.",
+        "disclosure": "Prototype preview. Fictional example. Screen in English."
+      },
+      "references": [
+        "C:/Users/Cankat/Documents/GitHub/tmp/store-assets-run-20261106/drawing-legacy-native-20261115/PsyDraw/detail.png",
+        "C:/Users/Cankat/Documents/GitHub/PsyDrawReact/app-store-assets/localize/generated/en-US/02-every-sketch-has-a-story-20261114.png",
+        "C:\\Users\\Cankat\\.codex\\generated_images\\01a1ca08-5659-7bb0-bb99-d5072f677cf4\\exec-7dea6e5e-c68f-44d8-89af-93b702dcaa94.png"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE joyful premium portrait app-store screenshot for DrawInsight (name exactly DrawInsight, WITHOUT 'ing'), aspect1290:2796. Reference1 is the AUTHORITATIVE current legacy native-prototype phone interface. Reference2 is only the art-direction reference: warm ivory textured sketchbook paper, cobalt wax-crayon headline, coral/yellow/sage scribble accents, tactile physical crayon objects and delightful orange-cat illustration. Reference3 is the fictional crayon drawing. Build a new composition with the CORRECT legacy interface from reference1, never use the different phone UI from reference2. Small DrawInsight wordmark at top, exact huge headline 'Look a little / closer.' (slash means linebreak, never print slash), exact support 'Open a drawing. Notice the details.'. Strong playful typography, generous space, large phone roughly70percent canvas height and fully visible. The phone screen shows Analysis Details with back arrow, complete cat-and-house drawing, date November14,2026, 'A little sunshine' and smiling emoji, 'Key Insights', exactly two descriptive sample bullets 'An orange cat in a garden.' and 'A blue house and a yellow sun.', Save/Share/Delete controls, the original not-a-diagnostic-tool disclaimer, and Timeline/Capture/Settings tabs. Preserve all source geometry and English text. These are explicitly fictional visual observations, NOT real psychological findings. A paper drawing card and magnifying glass beside the phone create a distinct closer-look scene, with coral paperclip, cobalt scribble loop and yellow crayon; no duplicated phone. Keep every phone corner, footer, interface control and source disclaimer visible. Bottom exterior footer safely within margins: 'Prototype preview. Fictional example. Screen in English.'. Continuous full-height paper scene, no background bands or blurred fill. No rankings, awards, testimonials, accuracy or privacy claims, psychological predictions or invented features. This is a prototype artwork, not a validated clinical service. One complete image only."
+    }
+  ]
+}

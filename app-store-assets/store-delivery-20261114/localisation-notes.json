@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-15",
+  "batchStartedDate": "2026-11-14",
+  "currentProduct": "DrawInsight",
+  "languages": 10,
+  "selectedFramesPerLocale": 2,
+  "newGeneratedImages": 20,
+  "qualifiedReusedImages": 0,
+  "retainedMasterImages": 0,
+  "designScoreApproximate": 8.3,
+  "designNotes": "Warm textured paper, oversized cobalt crayon headlines, smiling orange-cat artwork and large source-based prototype screens create a playful two-frame story. Timeline and detail now have distinct purposes. Twenty master images are generated individually with built-in image_gen.",
+  "applicationCodeChanged": false,
+  "previewLimitations": "Selected published React Native prototype source snapshots rendered offline with inert adapters, one fictional local record, descriptive visual sample observations and a generated crayon drawing. Published source commit and current working-tree differences are recorded in ui/source-reuse-proof.json; current working edits are preserved. Headers/tabs are host approximations; AI posters approximate those UI renders. No live analysis, psychological assessment, native runtime, language support or camera operation was validated. Phone UI remains English. ",
+  "visualReview": "passed",
+  "activeSelection": "Use exports.json here; all previous artwork is preserved in its original folders."
+}
