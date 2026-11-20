@@ -1,6 +1,8 @@
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
+import { createBottomTabNavigator, BottomTabNavigationOptions } from "@react-navigation/bottom-tabs"
 import { createStackNavigator } from "@react-navigation/stack"
 import { Lucide } from "@/components/ui/lucide"
+import { Platform } from "react-native"
+import type { RouteProp } from "@react-navigation/native"
 
 import TimelineScreen from "@/screens/TimelineScreen"
 import CaptureScreen from "@/screens/CaptureScreen"
@@ -8,7 +10,13 @@ import SettingsScreen from "@/screens/SettingsScreen"
 import AnalysisScreen from "@/screens/AnalysisScreen"
 import AnalysisDetailScreen from "@/screens/AnalysisDetailScreen"
 
-const Tab = createBottomTabNavigator()
+type RootTabParamList = {
+  Timeline: undefined;
+  Capture: undefined;
+  Settings: undefined;
+}
+
+const Tab = createBottomTabNavigator<RootTabParamList>()
 const Stack = createStackNavigator()
 
 const TimelineStack = () => {
@@ -46,9 +54,9 @@ const CaptureStack = () => {
 const AppNavigator = () => {
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ color, size }) => {
-          let iconName
+      screenOptions={({ route }: { route: RouteProp<RootTabParamList, keyof RootTabParamList> }) => ({
+        tabBarIcon: ({ color, size }: { color: string; size: number }) => {
+          let iconName: "clock" | "camera" | "settings" = "clock"
 
           if (route.name === "Timeline") {
             iconName = "clock"
@@ -64,15 +72,45 @@ const AppNavigator = () => {
         tabBarInactiveTintColor: "#4A4A4A",
         tabBarStyle: {
           backgroundColor: "#FCEBD1",
-          height: 60,
-          paddingBottom: 10,
+          height: Platform.OS === 'web' ? 80 : 60,
+          paddingBottom: Platform.OS === 'web' ? 20 : 10,
+          position: Platform.OS === 'web' ? 'fixed' : 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          borderTopWidth: 1,
+          borderTopColor: "#E5E5E5",
         },
-        headerShown: false,
+        headerShown: true,
+        headerStyle: {
+          backgroundColor: "#FCEBD1",
+        },
+        headerTintColor: "#4A4A4A",
       })}
     >
-      <Tab.Screen name="Timeline" component={TimelineStack} />
-      <Tab.Screen name="Capture" component={CaptureStack} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen 
+        name="Timeline" 
+        component={TimelineStack} 
+        options={{
+          title: "Timeline",
+          headerShown: false,
+        }}
+      />
+      <Tab.Screen 
+        name="Capture" 
+        component={CaptureStack}
+        options={{
+          title: "Capture",
+          headerShown: false,
+        }}
+      />
+      <Tab.Screen 
+        name="Settings" 
+        component={SettingsScreen}
+        options={{
+          title: "Settings"
+        }}
+      />
     </Tab.Navigator>
   )
 }

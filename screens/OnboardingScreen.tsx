@@ -21,19 +21,19 @@ const OnboardingScreen: React.FC<OnboardingScreenProps> = ({ onComplete }) => {
       id: "1",
       title: "Welcome to DrawInsight",
       description: "Turn your child's drawings into psychological insights with just a tap.",
-      image: require("@/assets/onboarding-1.png"),
+      image: { uri: "/onboarding-1.png" },
     },
     {
       id: "2",
       title: "How It Works",
       description: "Take a photo of any drawing, our AI analyzes it and provides meaningful insights.",
-      image: require("@/assets/onboarding-2.png"),
+      image: { uri: "/onboarding-2.png" },
     },
     {
       id: "3",
       title: "Privacy First",
       description: "Your child's data is encrypted and never shared. We prioritize safety and privacy.",
-      image: require("@/assets/onboarding-3.png"),
+      image: { uri: "/onboarding-3.png" },
     },
   ]
 

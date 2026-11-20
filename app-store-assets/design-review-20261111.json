@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-11",
+  "repository": "PsyDraw",
+  "decision": "Retain existing screenshot design; above user 7/10 replacement threshold.",
+  "designScoreApproximate": 7.6,
+  "visualSample": "Two English source masters per repository inspected on dated contact sheets.",
+  "qualityCriteria": [
+    "Prominent readable UI",
+    "Clear headline hierarchy",
+    "Coordinated product-specific visual identity",
+    "Useful device framing and contrast"
+  ],
+  "reference": "User supplied G1cGt5sacAAegLg.jpeg screenshot collage and https://x.com/screenshotfirst",
+  "publishedAssetCommitReviewed": "d54b18a5cfe37ab28134be3bcf1f400c06299b07",
+  "verifiedExportCount": 80,
+  "languageCount": 20,
+  "manifest": "app-store-assets/store-delivery-20261106/exports.json",
+  "manifestSha256": "2ec8e3ebd2ecf3a7bd1da2ebc63018e90573055e7364bb574bb96dd3687f9b3a",
+  "integrityChecks": [
+    "All source SHA256 hashes",
+    "All export SHA256 hashes",
+    "Exact export dimensions",
+    "RGB without alpha"
+  ],
+  "artworkChanges": "None. Originals and translated artwork retained.",
+  "scope": "Store artwork review only. This does not verify native builds, service integrations, in-app language support or store publication."
+}

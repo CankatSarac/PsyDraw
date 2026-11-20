@@ -13,7 +13,7 @@ const TimelineScreen: React.FC = () => {
 
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
-      <Image source={require("@/assets/empty-timeline.png")} style={styles.emptyImage} />
+      <Image source={{ uri: "/empty-timeline.png" }} style={styles.emptyImage} />
       <Text style={styles.emptyTitle}>No analyses yet</Text>
       <Text style={styles.emptyText}>Capture your first drawing to see the analysis here</Text>
       <TouchableOpacity style={styles.captureButton} onPress={() => navigation.navigate("Capture")}>

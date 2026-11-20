@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-15",
+  "repository": "PsyDraw",
+  "decision": "Replace the empty timeline/settings campaign with source-supported fictional populated-timeline and entry-detail previews.",
+  "minimumIndividualCreativeScoreApproximate": 8.3,
+  "scoreMeaning": "Subjective visual judgment of clarity, personality and catchiness; not conversion evidence or language certification.",
+  "observation": "Warm textured paper, oversized cobalt crayon headlines, smiling orange-cat artwork and large source-based prototype screens create a playful two-frame story. Timeline and detail now have distinct purposes. Twenty master images are generated individually with built-in image_gen.",
+  "reference": [
+    "User supplied G1cGt5sacAAegLg.jpeg collage",
+    "https://x.com/screenshotfirst"
+  ],
+  "publishedAssetCommitReviewed": "daeff3d183a0c04a407001dc368fb0e65b24738f",
+  "manifest": "app-store-assets/store-delivery-20261114/exports.json",
+  "manifestSha256": "aa35804d45a4ce9f211e3d0d20ab22024d7eea993c54b7c7840a8a49daa266c6",
+  "languageCount": 10,
+  "locales": [
+    "en-US",
+    "ar-SA",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "ja",
+    "ko",
+    "pt-BR",
+    "tr",
+    "zh-Hans"
+  ],
+  "verifiedManifestExports": 40,
+  "verifiedSelectedStoreFiles": 40,
+  "visualReview": {
+    "masters": "All selected compositions in labeled all-locale contact grids, with larger locale/source inspection for uncertain text or layouts.",
+    "formats": "Representative English, Arabic, German, Japanese and Chinese Apple/Play exports; retained Apple originals included.",
+    "limitations": "Contact-grid inspection assesses visible layout, hierarchy and consistency. It does not certify every translated word, native runtime, store submission, or medical/financial claims."
+  },
+  "qualityCriteria": [
+    "Readable prominent product UI",
+    "Clear benefit hierarchy",
+    "Product-specific character and materials",
+    "Localized headings fit without visible collisions",
+    "Both store aspect ratios preserve the full artwork"
+  ],
+  "englishFrameScores": [
+    {
+      "file": "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png",
+      "score": 8.5,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png",
+      "score": 8.4,
+      "decision": "redesigned-and-retained"
+    }
+  ],
+  "reviewedMasterReferences": {
+    "en-US": [
+      "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png"
+    ],
+    "ar-SA": [
+      "app-store-assets/localize/generated/ar-SA/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/ar-SA/02-look-a-little-closer-20261115.png"
+    ],
+    "de-DE": [
+      "app-store-assets/localize/generated/de-DE/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/de-DE/02-look-a-little-closer-20261115.png"
+    ],
+    "es-ES": [
+      "app-store-assets/localize/generated/es-ES/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/es-ES/02-look-a-little-closer-20261115.png"
+    ],
+    "fr-FR": [
+      "app-store-assets/localize/generated/fr-FR/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/fr-FR/02-look-a-little-closer-20261115.png"
+    ],
+    "ja": [
+      "app-store-assets/localize/generated/ja/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/ja/02-look-a-little-closer-20261115.png"
+    ],
+    "ko": [
+      "app-store-assets/localize/generated/ko/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/ko/02-look-a-little-closer-20261115.png"
+    ],
+    "pt-BR": [
+      "app-store-assets/localize/generated/pt-BR/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/pt-BR/02-look-a-little-closer-20261115.png"
+    ],
+    "tr": [
+      "app-store-assets/localize/generated/tr/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/tr/02-look-a-little-closer-20261115.png"
+    ],
+    "zh-Hans": [
+      "app-store-assets/localize/generated/zh-Hans/01-little-art-big-smiles-20261115.png",
+      "app-store-assets/localize/generated/zh-Hans/02-look-a-little-closer-20261115.png"
+    ]
+  },
+  "verifiedFiles": {
+    "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png": {
+      "sha256": "eb705bf6a52946fd77d52910a8b96abda471f24a9a6b9890d51110a94efdf07b",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/en-US/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "02bfda74ee5a5b94033b7ff052ee5fef921c57e431c8a6aa0dd9656f7790fc3d",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/en-US/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "7afe8b104e9d12e6442b6a3528db42c4052424e841a2f899e83e817352dcf0ef",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png": {
+      "sha256": "9165a5ed4246d7f93cd15aa475a407d61b18a38a5c3773a7aab566c4023ec476",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/en-US/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "0b48e0df0faeced9a02637c183e60d44948706f8989750cbbce3b7b73183219d",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/en-US/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "b50d1cf09a165edf48f38a8ab398af461259177864d8be41d50ed248543c2923",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ar-SA/01-little-art-big-smiles-20261115.png": {
+      "sha256": "0d8f1acf22fb545750823442164768d1a587df7f5504dcbb6ebbd638a791b87f",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ar-SA/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "360c6026e926359ad96d9489f8cf20002c17f228a3ba72cd0a3261509a96d303",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ar/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "4740ddfa7a886bac7d72a560aa6cb01816f0501e4fa537f5542b2aaddb5e43ef",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ar-SA/02-look-a-little-closer-20261115.png": {
+      "sha256": "7b1430f83050163fbe8996501a017421938367e12434c2b41f1ec07917108076",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ar-SA/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "93e34af2f121c09cbb2dea60bae7eee320c3b7f47182259791e26d1cc472e5c6",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ar/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "9fbd299b9dc666eaadc46dae1e4266ae8eb35bef30a08cf4dc9ceb9e61203b7e",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/de-DE/01-little-art-big-smiles-20261115.png": {
+      "sha256": "4d04508945aff35aef7af7f6723941454b5786437e4b9d8a3d781d96decd220f",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/de-DE/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "54b72a02cab753273aa0d816ad49045265eb9aeba8def208420ec2517f456e96",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/de-DE/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "f05d1c16ec496229a599f8216e7f93c54d9de71b7f08b7fb817dd1334e985c03",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/de-DE/02-look-a-little-closer-20261115.png": {
+      "sha256": "78139d176b6bdea0ca7e1fefa4b149d89686021f455b656ecd3ebe38ac2387a2",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/de-DE/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "5f109adfe79301ea12b4a8db9cc20a9768cf0f87ef9466f43d6f7bb77cc84861",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/de-DE/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "a7db2829446102d66d321332b8ffaa7fd320de810df4d96936b51545a2ac52a0",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/es-ES/01-little-art-big-smiles-20261115.png": {
+      "sha256": "4f28c147e174935585b23ec7f77a3a7904f65212f3f0df86d5b6f961d9b7d0d0",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/es-ES/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "683e07d1b1979bc84a2a8fd914a89ad2787c86974bd246c5003f0dd838b7867a",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/es-ES/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "15b4a393af08fc88b0dc27578f7c545a6158fd52ca545559495ef9897034138b",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/es-ES/02-look-a-little-closer-20261115.png": {
+      "sha256": "a7312a74f2ac57e7a549d129475c57b981102d04f80800293da33a14bf4aede8",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/es-ES/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "bd5502b785e50048cbb12798f0e4c02a8ad64638c17a0d9871761cabc2d536f0",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/es-ES/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "3f8143668f0e587ce560acd3864e4dba2bf7c1f40564c13d51e6f6f73f5f1cf3",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/fr-FR/01-little-art-big-smiles-20261115.png": {
+      "sha256": "5affc364244daca038d290bfadbde0361cdbd86ef9868c7306be08b51fe13aac",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/fr-FR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "0f8afb44e7b3ee32dea4aa94972f73b8093457b0708cfc1527c0937238045b8e",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/fr-FR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "6c8b86a00196ac207064e87d29adb7b326c3e05a52ee89db32fb12570c1d40d5",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/fr-FR/02-look-a-little-closer-20261115.png": {
+      "sha256": "4458791b9fe41e83dcdc1f5cd881948e05ef930729712964a8e26b4212ee234c",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/fr-FR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "6da26dfc7bd4a0507e3afa6b9faf55fa35adc3a68f60129632a63d9220cd169b",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/fr-FR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "56ebc7c5247b83b37b08b4a127c21a706c5bd024fe7e12401243b11fd5221e15",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ja/01-little-art-big-smiles-20261115.png": {
+      "sha256": "525e5fcd2ba145537af3ba2c2db6d9e8b319790da178b09ec73ad31f4aa961f4",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ja/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "f21ccbd65bd2e5f79acc4c08055197027cd114f430d2622ed8cd3a67aa1c2e47",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ja-JP/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "93d7bdb22736c1252dd47f7353d507534b2a9ab104de5c699b43d3df2ec8d714",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ja/02-look-a-little-closer-20261115.png": {
+      "sha256": "a2b5480a18429cb77e692d8bc94e0251c8936751cb611ae4b81c8e472d896d3e",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ja/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "240f7b0f797bc0880a045d037614132cab6a4736059fcfeee5ed5b7e6b9e7e20",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ja-JP/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "fad00201ac5705aab37191929bdcc147a6ac38674334fee4fe6e11d41535cf0b",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ko/01-little-art-big-smiles-20261115.png": {
+      "sha256": "2c3e1c0e12f0a9f0e53f3e2a0674bb3b29f4638ea1275b274cbf4bde72823159",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ko/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "409b87c0debf4c506e5c9bad7329812e2ed965baf26464d88769cda6dfe8f498",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ko-KR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "7669b166c71c27ca94848b8b8a454270eeb6a3f20c1c7f5f382e29cad07e6170",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/ko/02-look-a-little-closer-20261115.png": {
+      "sha256": "b22453276508c9b3097e8758b3ed6939175eaf6e41b8975a961d8309dec7a04e",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/ko/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "a9e7c95226c9ef42b288bc6afa5780f1a9a66c278b175780303f9544dea1f2a1",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/ko-KR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "21d93ca36bf134e96654b7e5a11c26811df7610a455761d48437283d4b805941",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/pt-BR/01-little-art-big-smiles-20261115.png": {
+      "sha256": "955d96d5b7179fad834a4b6f8aaf31333fd98c1390e81ddbcf94b98308f861ab",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/pt-BR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "727552dd4fdb0bbce1da1c8135ac276b4596702bcdaddf86349bcd7d61b08b05",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/pt-BR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "732072584a3e9ad3d33d9c3748259d1310328162a4dff66664ae3a35fe03cda4",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/pt-BR/02-look-a-little-closer-20261115.png": {
+      "sha256": "ebc82dc09f02b7d8449ac40f9cd6115a5ec11a9ef5a47bcd7a0f6da7af5e11a3",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/pt-BR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "f2d669f50ba025b0d1d2c5a55d5f5547113c072c3f8764693cf635cf7a55e0bc",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/pt-BR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "75d88eb98589d79072bb93b8125fb8c9e6fc852bc3109a5ef4b960621063f43e",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/tr/01-little-art-big-smiles-20261115.png": {
+      "sha256": "a1de1b300e994e574a5842b5c1441ec8db4fd69e4246d180eca7e52cd404c627",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/tr/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "eb367e7eb18185ce14d9cfa3e8270a5cd4605859fffd7ffa8578285f21e665e5",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/tr-TR/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "cabec64caff7699e166b72de261c05767d65ecfc7451684b7f08a8af14d00119",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/tr/02-look-a-little-closer-20261115.png": {
+      "sha256": "3b287bed2ee601a5d7976927f025cb78919702e7e54b7791327f5d979bf124d5",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/tr/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "2ba2ba786ff636a129acf4799537d1e67dd7e6addd96ff5d60d2d87ba380566a",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/tr-TR/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "d1457d84ebb0a2af6f855580b93a0a87c17fd9ddfcbc1800168ad6552141259f",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/zh-Hans/01-little-art-big-smiles-20261115.png": {
+      "sha256": "ecbef9d61c4fc8d177f6f1760b995ed07ed7b4aa18506fde72151c012efe2699",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/zh-Hans/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "99db4144877f1d7978d016d26ddb5af33de736bff717a1884a2d87f8dcd24c41",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/zh-CN/01-little-art-big-smiles-20261115.jpg": {
+      "sha256": "cbe1da4bf3e8690d7eb8b810240af54405f21e410383291d4abe06ec462cee2a",
+      "newTaskAsset": true
+    },
+    "app-store-assets/localize/generated/zh-Hans/02-look-a-little-closer-20261115.png": {
+      "sha256": "856994d9cda7b5ff3403fe2f51536fb2fa571cfda10d53ce3a5320f3efe526d6",
+      "newTaskAsset": true
+    },
+    "app-store-assets/screenshots-ready/catchiness-20261114/zh-Hans/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "bcd7603a19814fb47d5f7ab758ab50484097911e3dcc5f20ebc6e533729de285",
+      "newTaskAsset": true
+    },
+    "play-store-assets/screenshots-ready/catchiness-20261114/zh-CN/02-look-a-little-closer-20261115.jpg": {
+      "sha256": "7600b287c0a8a59b4d0224b1ab0286e73d17fb1f661ff643d7c6e5de02659774",
+      "newTaskAsset": true
+    }
+  },
+  "storeFiles": [
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/en-US/01-little-art-big-smiles-20261115.jpg",
+      "locale": "en-US",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/en-US/01-little-art-big-smiles-20261115.jpg",
+      "locale": "en-US",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/en-US/02-look-a-little-closer-20261115.jpg",
+      "locale": "en-US",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/en-US/02-look-a-little-closer-20261115.jpg",
+      "locale": "en-US",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ar-SA/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ar-SA",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ar/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ar-SA",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ar-SA/02-look-a-little-closer-20261115.jpg",
+      "locale": "ar-SA",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ar/02-look-a-little-closer-20261115.jpg",
+      "locale": "ar-SA",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/de-DE/01-little-art-big-smiles-20261115.jpg",
+      "locale": "de-DE",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/de-DE/01-little-art-big-smiles-20261115.jpg",
+      "locale": "de-DE",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/de-DE/02-look-a-little-closer-20261115.jpg",
+      "locale": "de-DE",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/de-DE/02-look-a-little-closer-20261115.jpg",
+      "locale": "de-DE",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/es-ES/01-little-art-big-smiles-20261115.jpg",
+      "locale": "es-ES",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/es-ES/01-little-art-big-smiles-20261115.jpg",
+      "locale": "es-ES",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/es-ES/02-look-a-little-closer-20261115.jpg",
+      "locale": "es-ES",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/es-ES/02-look-a-little-closer-20261115.jpg",
+      "locale": "es-ES",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/fr-FR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "fr-FR",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/fr-FR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "fr-FR",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/fr-FR/02-look-a-little-closer-20261115.jpg",
+      "locale": "fr-FR",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/fr-FR/02-look-a-little-closer-20261115.jpg",
+      "locale": "fr-FR",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ja/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ja",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ja-JP/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ja",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ja/02-look-a-little-closer-20261115.jpg",
+      "locale": "ja",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ja-JP/02-look-a-little-closer-20261115.jpg",
+      "locale": "ja",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ko/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ko",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ko-KR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "ko",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/ko/02-look-a-little-closer-20261115.jpg",
+      "locale": "ko",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/ko-KR/02-look-a-little-closer-20261115.jpg",
+      "locale": "ko",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/pt-BR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "pt-BR",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/pt-BR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "pt-BR",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/pt-BR/02-look-a-little-closer-20261115.jpg",
+      "locale": "pt-BR",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/pt-BR/02-look-a-little-closer-20261115.jpg",
+      "locale": "pt-BR",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/tr/01-little-art-big-smiles-20261115.jpg",
+      "locale": "tr",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/tr-TR/01-little-art-big-smiles-20261115.jpg",
+      "locale": "tr",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/tr/02-look-a-little-closer-20261115.jpg",
+      "locale": "tr",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/tr-TR/02-look-a-little-closer-20261115.jpg",
+      "locale": "tr",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/zh-Hans/01-little-art-big-smiles-20261115.jpg",
+      "locale": "zh-Hans",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/zh-CN/01-little-art-big-smiles-20261115.jpg",
+      "locale": "zh-Hans",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "app-store-assets/screenshots-ready/catchiness-20261114/zh-Hans/02-look-a-little-closer-20261115.jpg",
+      "locale": "zh-Hans",
+      "platform": "app-store-iphone",
+      "size": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "file": "play-store-assets/screenshots-ready/catchiness-20261114/zh-CN/02-look-a-little-closer-20261115.jpg",
+      "locale": "zh-Hans",
+      "platform": "google-play-phone",
+      "size": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "reviewSheetSha256": {
+    "all-locales.jpg": "7d68ad1d99af269712cd0650b2512053f947b2b8fbe386c2d471525849c7a053",
+    "store-formats.jpg": "e134cb97990b81a801794a8df429b51e18cd2c68cc99f4f8414f860091e042d3"
+  },
+  "artworkChanges": "Twenty selected master images in ten languages, replacing the active empty-screen campaign. Earlier twenty-language artwork remains preserved.",
+  "applicationSourceChanged": false,
+  "batchStartedDate": "2026-11-14",
+  "previousManifest": "app-store-assets/store-delivery-20261106/exports.json",
+  "newGeneratedImages": 20,
+  "qualifiedReusedImages": 0,
+  "retainedMasterImages": 0,
+  "sourceFidelity": "Selected published React Native prototype source snapshots rendered offline with inert adapters, one fictional local record, descriptive visual sample observations and a generated crayon drawing. Published source commit and current working-tree differences are recorded in ui/source-reuse-proof.json; current working edits are preserved. Headers/tabs are host approximations; AI posters approximate those UI renders. No live analysis, psychological assessment, native runtime, language support or camera operation was validated. Phone UI remains English. ",
+  "newFrameScores": [
+    {
+      "file": "app-store-assets/localize/generated/en-US/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/en-US/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ar-SA/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ar-SA/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/de-DE/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/de-DE/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/es-ES/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/es-ES/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/fr-FR/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/fr-FR/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ja/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ja/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ko/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/ko/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/pt-BR/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/pt-BR/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/tr/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/tr/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/zh-Hans/01-little-art-big-smiles-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    },
+    {
+      "file": "app-store-assets/localize/generated/zh-Hans/02-look-a-little-closer-20261115.png",
+      "score": 8.3,
+      "decision": "redesigned-and-retained"
+    }
+  ],
+  "excludedFromActiveSelection": [
+    "app-store-assets/localize/generated/ar-SA/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ar-SA/02-settings-preview.png",
+    "app-store-assets/localize/generated/da/01-empty-timeline.png",
+    "app-store-assets/localize/generated/da/02-settings-preview.png",
+    "app-store-assets/localize/generated/de-DE/01-empty-timeline.png",
+    "app-store-assets/localize/generated/de-DE/02-settings-preview.png",
+    "app-store-assets/localize/generated/en-US/01-empty-timeline.png",
+    "app-store-assets/localize/generated/en-US/02-settings-preview.png",
+    "app-store-assets/localize/generated/es-ES/01-empty-timeline.png",
+    "app-store-assets/localize/generated/es-ES/02-settings-preview.png",
+    "app-store-assets/localize/generated/fi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/fi/02-settings-preview.png",
+    "app-store-assets/localize/generated/fr-FR/02-settings-preview.png",
+    "app-store-assets/localize/generated/fr-FR/01-empty-timeline-accent-v2.png",
+    "app-store-assets/localize/generated/hi/01-empty-timeline.png",
+    "app-store-assets/localize/generated/hi/02-settings-preview.png",
+    "app-store-assets/localize/generated/id/01-empty-timeline.png",
+    "app-store-assets/localize/generated/id/02-settings-preview.png",
+    "app-store-assets/localize/generated/it/01-empty-timeline.png",
+    "app-store-assets/localize/generated/it/02-settings-preview.png",
+    "app-store-assets/localize/generated/ja/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ja/02-settings-preview.png",
+    "app-store-assets/localize/generated/ko/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ko/02-settings-preview.png",
+    "app-store-assets/localize/generated/nl-NL/01-empty-timeline.png",
+    "app-store-assets/localize/generated/nl-NL/02-settings-preview.png",
+    "app-store-assets/localize/generated/pl/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pl/02-settings-preview.png",
+    "app-store-assets/localize/generated/pt-BR/01-empty-timeline.png",
+    "app-store-assets/localize/generated/pt-BR/02-settings-preview.png",
+    "app-store-assets/localize/generated/ru/01-empty-timeline.png",
+    "app-store-assets/localize/generated/ru/02-settings-preview.png",
+    "app-store-assets/localize/generated/sv/01-empty-timeline.png",
+    "app-store-assets/localize/generated/sv/02-settings-preview.png",
+    "app-store-assets/localize/generated/th/01-empty-timeline.png",
+    "app-store-assets/localize/generated/th/02-settings-preview.png",
+    "app-store-assets/localize/generated/tr/01-empty-timeline.png",
+    "app-store-assets/localize/generated/tr/02-settings-preview.png",
+    "app-store-assets/localize/generated/zh-Hans/01-empty-timeline.png",
+    "app-store-assets/localize/generated/zh-Hans/02-settings-preview.png"
+  ],
+  "generationInputProof": {},
+  "supportingAssetSha256": {
+    "app-store-assets/store-delivery-20261114/ui/timeline.png": "d8413e5da26beb174cf3caccc2452ea8087229610367e0cc36f21eaeea1580a0",
+    "app-store-assets/store-delivery-20261114/ui/detail.png": "a9702d48ce4e2ca595de2682cc365991a48862ee29a6154d07e49abfab396cb8",
+    "app-store-assets/store-delivery-20261114/ui/provenance.json": "f36db1df6260a1008eb75fec09d1a5f2e7ff06ff9e1a30e923f915eb15185690",
+    "app-store-assets/store-delivery-20261114/ui/sample-drawing.png": "6736a0a7ee65f5db316f3128c040904fd4872a681cd7d7bbeaf8ee3539758e5a",
+    "app-store-assets/store-delivery-20261114/ui/sample-generation.json": "9d2fd3285a39c71902041c969f063c1b911091baea81c9fd3a60c8cba628b723",
+    "app-store-assets/store-delivery-20261114/ui/source-reuse-proof.json": "eeeaca3599b32f8839d25242c996824fdbef0e93acc0dbd9061fee986998c044",
+    "app-store-assets/store-delivery-20261114/ui/campaign-reuse-proof.json": "7020bd1b6284dce236f143d0487ff6b7f1b866c6fb8e3ca61d79e0a70593e568"
+  }
+}
